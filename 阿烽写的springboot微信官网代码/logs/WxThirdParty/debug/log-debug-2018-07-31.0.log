@@ -1,0 +1,1085 @@
+===2018-07-31 10:10:23.302 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 10:10:23.326 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 10:10:23.712 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 10:10:24.145 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 10:10:24.147 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 10:10:24.148 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 10:10:24.162 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - ==>  Preparing: SELECT id,authorizerAppid,localName,serviceName,mediaType,mediaId,createTime,wxUrl FROM wx_upload_media WHERE authorizerAppid=? AND (mediaType IN (?,?)) 
+===2018-07-31 10:10:24.163 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - ==> Parameters: wx3a325cf730413730(String), image(String), thumb(String)
+===2018-07-31 10:10:24.296 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - <==      Total: 2
+===2018-07-31 10:11:41.898 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 10:11:41.899 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 10:11:41.900 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 10:11:41.927 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - ==>  Preparing: SELECT id,authorizerAppid,localName,serviceName,mediaType,mediaId,createTime,wxUrl FROM wx_upload_media WHERE id=? 
+===2018-07-31 10:11:41.928 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - ==> Parameters: 1023813782365372417(Long)
+===2018-07-31 10:11:41.940 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - <==      Total: 1
+===2018-07-31 10:11:41.944 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.deleteById Line:159 - ==>  Preparing: DELETE FROM wx_upload_media WHERE id=? 
+===2018-07-31 10:11:41.945 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.deleteById Line:159 - ==> Parameters: 1023813782365372417(Long)
+===2018-07-31 10:11:42.299 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.deleteById Line:159 - <==    Updates: 1
+===2018-07-31 10:13:02.627 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 10:13:02.627 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 10:13:02.634 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 10:13:03.042 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 10:13:03.043 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 10:13:03.044 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 10:13:03.046 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - ==>  Preparing: SELECT id,authorizerAppid,localName,serviceName,mediaType,mediaId,createTime,wxUrl FROM wx_upload_media WHERE authorizerAppid=? AND (mediaType IN (?,?)) 
+===2018-07-31 10:13:03.047 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - ==> Parameters: wx3a325cf730413730(String), image(String), thumb(String)
+===2018-07-31 10:13:03.048 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 10:14:31.827 DEBUG com.kingtechfin.wxthirdparty.WxthirdpartyApplication Line:53  - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+===2018-07-31 10:14:38.871 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,appid,appsecret,token,aesKey,redirectUrl,verifyTicket FROM wx_thirdparty_info 
+===2018-07-31 10:14:38.909 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.selectList Line:159 - ==> Parameters: 
+===2018-07-31 10:14:38.935 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 10:14:38.942 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info 
+===2018-07-31 10:14:38.942 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 
+===2018-07-31 10:14:38.944 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 10:15:15.050 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 10:15:15.051 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 10:15:15.053 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 10:15:15.421 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 10:15:15.422 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 10:15:15.424 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 10:15:15.428 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - ==>  Preparing: SELECT id,authorizerAppid,localName,serviceName,mediaType,mediaId,createTime,wxUrl FROM wx_upload_media WHERE authorizerAppid=? AND (mediaType IN (?,?)) 
+===2018-07-31 10:15:15.429 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - ==> Parameters: wx3a325cf730413730(String), image(String), thumb(String)
+===2018-07-31 10:15:15.472 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 10:15:19.811 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 10:15:19.813 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 10:15:19.815 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 10:15:19.965 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.insert Line:159 - ==>  Preparing: INSERT INTO wx_upload_media ( id, authorizerAppid, localName, serviceName, mediaType, createTime ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+===2018-07-31 10:15:19.970 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.insert Line:159 - ==> Parameters: 1024116267390959618(Long), wx3a325cf730413730(String), 1533003137(1).png(String), /resources/static/wx/medias/1024116267369988097.png(String), image(String), 1533003319(Long)
+===2018-07-31 10:15:20.172 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.insert Line:159 - <==    Updates: 1
+===2018-07-31 10:15:21.715 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 10:15:21.717 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 10:15:21.719 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 10:15:21.720 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - ==>  Preparing: SELECT id,authorizerAppid,localName,serviceName,mediaType,mediaId,createTime,wxUrl FROM wx_upload_media WHERE id=? 
+===2018-07-31 10:15:21.721 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - ==> Parameters: 1024116267390959618(Long)
+===2018-07-31 10:15:21.723 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - <==      Total: 1
+===2018-07-31 10:15:21.726 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.deleteById Line:159 - ==>  Preparing: DELETE FROM wx_upload_media WHERE id=? 
+===2018-07-31 10:15:21.727 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.deleteById Line:159 - ==> Parameters: 1024116267390959618(Long)
+===2018-07-31 10:15:21.839 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.deleteById Line:159 - <==    Updates: 1
+===2018-07-31 10:17:01.404 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533003422, infoType=component_verify_ticket, componentVerifyTicket=ticket@@@p-HsR8xbpJGa6RTMEiOLJm8Wi72tO4-59gZZ3eQxODdSU8i_dyho46TeHvYGe_DL_dXL3e2l0kj5q7mHB4yu_Q, authorizerAppid=null, authorizationCode=null, authorizationCodeExpiredTime=null, preAuthCode=null) 
+===2018-07-31 10:17:01.430 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==>  Preparing: UPDATE wx_thirdparty_info SET appid=?, verifyTicket=? WHERE (appid = ?) 
+===2018-07-31 10:17:01.431 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==> Parameters: wx1dada0eb497ff1a1(String), ticket@@@p-HsR8xbpJGa6RTMEiOLJm8Wi72tO4-59gZZ3eQxODdSU8i_dyho46TeHvYGe_DL_dXL3e2l0kj5q7mHB4yu_Q(String), wx1dada0eb497ff1a1(String)
+===2018-07-31 10:17:01.455 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - <==    Updates: 1
+===2018-07-31 10:17:01.540 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success
+===2018-07-31 10:26:31.844 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533003993, infoType=component_verify_ticket, componentVerifyTicket=ticket@@@p-HsR8xbpJGa6RTMEiOLJm8Wi72tO4-59gZZ3eQxODdSU8i_dyho46TeHvYGe_DL_dXL3e2l0kj5q7mHB4yu_Q, authorizerAppid=null, authorizationCode=null, authorizationCodeExpiredTime=null, preAuthCode=null) 
+===2018-07-31 10:26:31.849 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==>  Preparing: UPDATE wx_thirdparty_info SET appid=?, verifyTicket=? WHERE (appid = ?) 
+===2018-07-31 10:26:31.852 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==> Parameters: wx1dada0eb497ff1a1(String), ticket@@@p-HsR8xbpJGa6RTMEiOLJm8Wi72tO4-59gZZ3eQxODdSU8i_dyho46TeHvYGe_DL_dXL3e2l0kj5q7mHB4yu_Q(String), wx1dada0eb497ff1a1(String)
+===2018-07-31 10:26:31.888 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - <==    Updates: 1
+===2018-07-31 10:26:31.915 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success
+===2018-07-31 10:37:39.488 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533004660, infoType=component_verify_ticket, componentVerifyTicket=ticket@@@p-HsR8xbpJGa6RTMEiOLJm8Wi72tO4-59gZZ3eQxODdSU8i_dyho46TeHvYGe_DL_dXL3e2l0kj5q7mHB4yu_Q, authorizerAppid=null, authorizationCode=null, authorizationCodeExpiredTime=null, preAuthCode=null) 
+===2018-07-31 10:37:39.526 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==>  Preparing: UPDATE wx_thirdparty_info SET appid=?, verifyTicket=? WHERE (appid = ?) 
+===2018-07-31 10:37:39.537 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==> Parameters: wx1dada0eb497ff1a1(String), ticket@@@p-HsR8xbpJGa6RTMEiOLJm8Wi72tO4-59gZZ3eQxODdSU8i_dyho46TeHvYGe_DL_dXL3e2l0kj5q7mHB4yu_Q(String), wx1dada0eb497ff1a1(String)
+===2018-07-31 10:37:39.730 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - <==    Updates: 1
+===2018-07-31 10:37:39.796 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success
+===2018-07-31 10:46:38.116 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533005199, infoType=component_verify_ticket, componentVerifyTicket=ticket@@@p-HsR8xbpJGa6RTMEiOLJm8Wi72tO4-59gZZ3eQxODdSU8i_dyho46TeHvYGe_DL_dXL3e2l0kj5q7mHB4yu_Q, authorizerAppid=null, authorizationCode=null, authorizationCodeExpiredTime=null, preAuthCode=null) 
+===2018-07-31 10:46:38.126 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==>  Preparing: UPDATE wx_thirdparty_info SET appid=?, verifyTicket=? WHERE (appid = ?) 
+===2018-07-31 10:46:38.127 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==> Parameters: wx1dada0eb497ff1a1(String), ticket@@@p-HsR8xbpJGa6RTMEiOLJm8Wi72tO4-59gZZ3eQxODdSU8i_dyho46TeHvYGe_DL_dXL3e2l0kj5q7mHB4yu_Q(String), wx1dada0eb497ff1a1(String)
+===2018-07-31 10:46:38.194 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - <==    Updates: 1
+===2018-07-31 10:46:38.224 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success
+===2018-07-31 10:57:48.713 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533005869, infoType=component_verify_ticket, componentVerifyTicket=ticket@@@p-HsR8xbpJGa6RTMEiOLJm8Wi72tO4-59gZZ3eQxODdSU8i_dyho46TeHvYGe_DL_dXL3e2l0kj5q7mHB4yu_Q, authorizerAppid=null, authorizationCode=null, authorizationCodeExpiredTime=null, preAuthCode=null) 
+===2018-07-31 10:57:48.809 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==>  Preparing: UPDATE wx_thirdparty_info SET appid=?, verifyTicket=? WHERE (appid = ?) 
+===2018-07-31 10:57:48.810 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==> Parameters: wx1dada0eb497ff1a1(String), ticket@@@p-HsR8xbpJGa6RTMEiOLJm8Wi72tO4-59gZZ3eQxODdSU8i_dyho46TeHvYGe_DL_dXL3e2l0kj5q7mHB4yu_Q(String), wx1dada0eb497ff1a1(String)
+===2018-07-31 10:57:48.844 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - <==    Updates: 1
+===2018-07-31 10:57:48.937 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success
+===2018-07-31 11:07:25.020 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533006446, infoType=component_verify_ticket, componentVerifyTicket=ticket@@@XJiarrCgM3WbXctxk3wWpXvLMMxTV7ldSD0HvzSfBk6sk-r6rJEyK8tfmnfQiNlOPku-hU-HCVYAUB8ZQtcBIQ, authorizerAppid=null, authorizationCode=null, authorizationCodeExpiredTime=null, preAuthCode=null) 
+===2018-07-31 11:07:25.097 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==>  Preparing: UPDATE wx_thirdparty_info SET appid=?, verifyTicket=? WHERE (appid = ?) 
+===2018-07-31 11:07:25.136 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==> Parameters: wx1dada0eb497ff1a1(String), ticket@@@XJiarrCgM3WbXctxk3wWpXvLMMxTV7ldSD0HvzSfBk6sk-r6rJEyK8tfmnfQiNlOPku-hU-HCVYAUB8ZQtcBIQ(String), wx1dada0eb497ff1a1(String)
+===2018-07-31 11:07:25.187 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - <==    Updates: 1
+===2018-07-31 11:07:25.254 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success
+===2018-07-31 11:17:23.485 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533007044, infoType=component_verify_ticket, componentVerifyTicket=ticket@@@XJiarrCgM3WbXctxk3wWpXvLMMxTV7ldSD0HvzSfBk6sk-r6rJEyK8tfmnfQiNlOPku-hU-HCVYAUB8ZQtcBIQ, authorizerAppid=null, authorizationCode=null, authorizationCodeExpiredTime=null, preAuthCode=null) 
+===2018-07-31 11:17:23.511 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==>  Preparing: UPDATE wx_thirdparty_info SET appid=?, verifyTicket=? WHERE (appid = ?) 
+===2018-07-31 11:17:23.512 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==> Parameters: wx1dada0eb497ff1a1(String), ticket@@@XJiarrCgM3WbXctxk3wWpXvLMMxTV7ldSD0HvzSfBk6sk-r6rJEyK8tfmnfQiNlOPku-hU-HCVYAUB8ZQtcBIQ(String), wx1dada0eb497ff1a1(String)
+===2018-07-31 11:17:23.593 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - <==    Updates: 1
+===2018-07-31 11:17:23.623 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success
+===2018-07-31 11:27:30.762 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533007651, infoType=component_verify_ticket, componentVerifyTicket=ticket@@@XJiarrCgM3WbXctxk3wWpXvLMMxTV7ldSD0HvzSfBk6sk-r6rJEyK8tfmnfQiNlOPku-hU-HCVYAUB8ZQtcBIQ, authorizerAppid=null, authorizationCode=null, authorizationCodeExpiredTime=null, preAuthCode=null) 
+===2018-07-31 11:27:30.765 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==>  Preparing: UPDATE wx_thirdparty_info SET appid=?, verifyTicket=? WHERE (appid = ?) 
+===2018-07-31 11:27:30.766 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==> Parameters: wx1dada0eb497ff1a1(String), ticket@@@XJiarrCgM3WbXctxk3wWpXvLMMxTV7ldSD0HvzSfBk6sk-r6rJEyK8tfmnfQiNlOPku-hU-HCVYAUB8ZQtcBIQ(String), wx1dada0eb497ff1a1(String)
+===2018-07-31 11:27:30.786 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - <==    Updates: 1
+===2018-07-31 11:27:30.836 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success
+===2018-07-31 11:37:10.208 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533008231, infoType=component_verify_ticket, componentVerifyTicket=ticket@@@XJiarrCgM3WbXctxk3wWpXvLMMxTV7ldSD0HvzSfBk6sk-r6rJEyK8tfmnfQiNlOPku-hU-HCVYAUB8ZQtcBIQ, authorizerAppid=null, authorizationCode=null, authorizationCodeExpiredTime=null, preAuthCode=null) 
+===2018-07-31 11:37:10.212 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==>  Preparing: UPDATE wx_thirdparty_info SET appid=?, verifyTicket=? WHERE (appid = ?) 
+===2018-07-31 11:37:10.213 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==> Parameters: wx1dada0eb497ff1a1(String), ticket@@@XJiarrCgM3WbXctxk3wWpXvLMMxTV7ldSD0HvzSfBk6sk-r6rJEyK8tfmnfQiNlOPku-hU-HCVYAUB8ZQtcBIQ(String), wx1dada0eb497ff1a1(String)
+===2018-07-31 11:37:10.248 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - <==    Updates: 1
+===2018-07-31 11:37:10.300 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success
+===2018-07-31 11:48:19.529 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533008900, infoType=component_verify_ticket, componentVerifyTicket=ticket@@@XJiarrCgM3WbXctxk3wWpXvLMMxTV7ldSD0HvzSfBk6sk-r6rJEyK8tfmnfQiNlOPku-hU-HCVYAUB8ZQtcBIQ, authorizerAppid=null, authorizationCode=null, authorizationCodeExpiredTime=null, preAuthCode=null) 
+===2018-07-31 11:48:19.540 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==>  Preparing: UPDATE wx_thirdparty_info SET appid=?, verifyTicket=? WHERE (appid = ?) 
+===2018-07-31 11:48:19.541 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==> Parameters: wx1dada0eb497ff1a1(String), ticket@@@XJiarrCgM3WbXctxk3wWpXvLMMxTV7ldSD0HvzSfBk6sk-r6rJEyK8tfmnfQiNlOPku-hU-HCVYAUB8ZQtcBIQ(String), wx1dada0eb497ff1a1(String)
+===2018-07-31 11:48:19.721 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - <==    Updates: 1
+===2018-07-31 11:48:19.832 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success
+===2018-07-31 11:57:12.408 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533009433, infoType=component_verify_ticket, componentVerifyTicket=ticket@@@XJiarrCgM3WbXctxk3wWpXvLMMxTV7ldSD0HvzSfBk6sk-r6rJEyK8tfmnfQiNlOPku-hU-HCVYAUB8ZQtcBIQ, authorizerAppid=null, authorizationCode=null, authorizationCodeExpiredTime=null, preAuthCode=null) 
+===2018-07-31 11:57:12.423 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==>  Preparing: UPDATE wx_thirdparty_info SET appid=?, verifyTicket=? WHERE (appid = ?) 
+===2018-07-31 11:57:12.424 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==> Parameters: wx1dada0eb497ff1a1(String), ticket@@@XJiarrCgM3WbXctxk3wWpXvLMMxTV7ldSD0HvzSfBk6sk-r6rJEyK8tfmnfQiNlOPku-hU-HCVYAUB8ZQtcBIQ(String), wx1dada0eb497ff1a1(String)
+===2018-07-31 11:57:12.556 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - <==    Updates: 1
+===2018-07-31 11:57:12.591 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success
+===2018-07-31 12:08:45.129 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533010126, infoType=component_verify_ticket, componentVerifyTicket=ticket@@@IpGw3rzOcgbj1j-DrLQfp5oQmQksHs_pF187vDeGAT7eqMDelEIzYGhrYklWxOFoQwJz3sNZn9F9Giu23rlJMQ, authorizerAppid=null, authorizationCode=null, authorizationCodeExpiredTime=null, preAuthCode=null) 
+===2018-07-31 12:08:45.134 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==>  Preparing: UPDATE wx_thirdparty_info SET appid=?, verifyTicket=? WHERE (appid = ?) 
+===2018-07-31 12:08:45.145 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==> Parameters: wx1dada0eb497ff1a1(String), ticket@@@IpGw3rzOcgbj1j-DrLQfp5oQmQksHs_pF187vDeGAT7eqMDelEIzYGhrYklWxOFoQwJz3sNZn9F9Giu23rlJMQ(String), wx1dada0eb497ff1a1(String)
+===2018-07-31 12:08:45.199 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - <==    Updates: 1
+===2018-07-31 12:08:45.248 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success
+===2018-07-31 12:18:28.420 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533010709, infoType=component_verify_ticket, componentVerifyTicket=ticket@@@IpGw3rzOcgbj1j-DrLQfp5oQmQksHs_pF187vDeGAT7eqMDelEIzYGhrYklWxOFoQwJz3sNZn9F9Giu23rlJMQ, authorizerAppid=null, authorizationCode=null, authorizationCodeExpiredTime=null, preAuthCode=null) 
+===2018-07-31 12:18:28.431 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==>  Preparing: UPDATE wx_thirdparty_info SET appid=?, verifyTicket=? WHERE (appid = ?) 
+===2018-07-31 12:18:28.432 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==> Parameters: wx1dada0eb497ff1a1(String), ticket@@@IpGw3rzOcgbj1j-DrLQfp5oQmQksHs_pF187vDeGAT7eqMDelEIzYGhrYklWxOFoQwJz3sNZn9F9Giu23rlJMQ(String), wx1dada0eb497ff1a1(String)
+===2018-07-31 12:18:28.713 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - <==    Updates: 1
+===2018-07-31 12:18:28.745 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success
+===2018-07-31 12:27:38.207 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533011258, infoType=component_verify_ticket, componentVerifyTicket=ticket@@@IpGw3rzOcgbj1j-DrLQfp5oQmQksHs_pF187vDeGAT7eqMDelEIzYGhrYklWxOFoQwJz3sNZn9F9Giu23rlJMQ, authorizerAppid=null, authorizationCode=null, authorizationCodeExpiredTime=null, preAuthCode=null) 
+===2018-07-31 12:27:38.209 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==>  Preparing: UPDATE wx_thirdparty_info SET appid=?, verifyTicket=? WHERE (appid = ?) 
+===2018-07-31 12:27:38.258 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==> Parameters: wx1dada0eb497ff1a1(String), ticket@@@IpGw3rzOcgbj1j-DrLQfp5oQmQksHs_pF187vDeGAT7eqMDelEIzYGhrYklWxOFoQwJz3sNZn9F9Giu23rlJMQ(String), wx1dada0eb497ff1a1(String)
+===2018-07-31 12:27:38.287 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - <==    Updates: 1
+===2018-07-31 12:27:38.317 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success
+===2018-07-31 12:38:20.833 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533011901, infoType=component_verify_ticket, componentVerifyTicket=ticket@@@IpGw3rzOcgbj1j-DrLQfp5oQmQksHs_pF187vDeGAT7eqMDelEIzYGhrYklWxOFoQwJz3sNZn9F9Giu23rlJMQ, authorizerAppid=null, authorizationCode=null, authorizationCodeExpiredTime=null, preAuthCode=null) 
+===2018-07-31 12:38:20.875 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==>  Preparing: UPDATE wx_thirdparty_info SET appid=?, verifyTicket=? WHERE (appid = ?) 
+===2018-07-31 12:38:20.876 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==> Parameters: wx1dada0eb497ff1a1(String), ticket@@@IpGw3rzOcgbj1j-DrLQfp5oQmQksHs_pF187vDeGAT7eqMDelEIzYGhrYklWxOFoQwJz3sNZn9F9Giu23rlJMQ(String), wx1dada0eb497ff1a1(String)
+===2018-07-31 12:38:20.890 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - <==    Updates: 1
+===2018-07-31 12:38:20.916 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success
+===2018-07-31 12:48:51.745 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533012533, infoType=component_verify_ticket, componentVerifyTicket=ticket@@@IpGw3rzOcgbj1j-DrLQfp5oQmQksHs_pF187vDeGAT7eqMDelEIzYGhrYklWxOFoQwJz3sNZn9F9Giu23rlJMQ, authorizerAppid=null, authorizationCode=null, authorizationCodeExpiredTime=null, preAuthCode=null) 
+===2018-07-31 12:48:51.793 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==>  Preparing: UPDATE wx_thirdparty_info SET appid=?, verifyTicket=? WHERE (appid = ?) 
+===2018-07-31 12:48:51.794 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==> Parameters: wx1dada0eb497ff1a1(String), ticket@@@IpGw3rzOcgbj1j-DrLQfp5oQmQksHs_pF187vDeGAT7eqMDelEIzYGhrYklWxOFoQwJz3sNZn9F9Giu23rlJMQ(String), wx1dada0eb497ff1a1(String)
+===2018-07-31 12:48:51.840 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - <==    Updates: 1
+===2018-07-31 12:48:51.920 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success
+===2018-07-31 12:57:45.554 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533013066, infoType=component_verify_ticket, componentVerifyTicket=ticket@@@IpGw3rzOcgbj1j-DrLQfp5oQmQksHs_pF187vDeGAT7eqMDelEIzYGhrYklWxOFoQwJz3sNZn9F9Giu23rlJMQ, authorizerAppid=null, authorizationCode=null, authorizationCodeExpiredTime=null, preAuthCode=null) 
+===2018-07-31 12:57:45.599 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==>  Preparing: UPDATE wx_thirdparty_info SET appid=?, verifyTicket=? WHERE (appid = ?) 
+===2018-07-31 12:57:45.600 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==> Parameters: wx1dada0eb497ff1a1(String), ticket@@@IpGw3rzOcgbj1j-DrLQfp5oQmQksHs_pF187vDeGAT7eqMDelEIzYGhrYklWxOFoQwJz3sNZn9F9Giu23rlJMQ(String), wx1dada0eb497ff1a1(String)
+===2018-07-31 12:57:45.614 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - <==    Updates: 1
+===2018-07-31 12:57:45.646 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success
+===2018-07-31 13:07:20.381 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533013641, infoType=component_verify_ticket, componentVerifyTicket=ticket@@@F_54ZIMhe6EsaGbToLO9HxUQkREX0h4Fk2GN-NkdjFPKx-_N0WdU3gjPzwYrZC43mVQWUtK2GxnsDgYUldQYtA, authorizerAppid=null, authorizationCode=null, authorizationCodeExpiredTime=null, preAuthCode=null) 
+===2018-07-31 13:07:20.383 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==>  Preparing: UPDATE wx_thirdparty_info SET appid=?, verifyTicket=? WHERE (appid = ?) 
+===2018-07-31 13:07:20.384 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==> Parameters: wx1dada0eb497ff1a1(String), ticket@@@F_54ZIMhe6EsaGbToLO9HxUQkREX0h4Fk2GN-NkdjFPKx-_N0WdU3gjPzwYrZC43mVQWUtK2GxnsDgYUldQYtA(String), wx1dada0eb497ff1a1(String)
+===2018-07-31 13:07:20.419 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - <==    Updates: 1
+===2018-07-31 13:07:20.450 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success
+===2018-07-31 13:18:05.610 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 13:18:05.674 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 13:18:05.773 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 13:18:06.520 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 13:18:06.520 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 13:18:06.522 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 13:18:11.785 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 13:18:11.787 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 13:18:11.788 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 13:18:12.701 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 13:18:12.703 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 13:18:12.704 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 13:18:12.732 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - ==>  Preparing: SELECT id,authorizerAppid,localName,serviceName,mediaType,mediaId,createTime,wxUrl FROM wx_upload_media WHERE authorizerAppid=? AND (mediaType IN (?,?)) 
+===2018-07-31 13:18:12.733 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - ==> Parameters: wx3a325cf730413730(String), image(String), thumb(String)
+===2018-07-31 13:18:12.810 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 13:19:35.225 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533014313, infoType=component_verify_ticket, componentVerifyTicket=ticket@@@F_54ZIMhe6EsaGbToLO9HxUQkREX0h4Fk2GN-NkdjFPKx-_N0WdU3gjPzwYrZC43mVQWUtK2GxnsDgYUldQYtA, authorizerAppid=null, authorizationCode=null, authorizationCodeExpiredTime=null, preAuthCode=null) 
+===2018-07-31 13:19:35.233 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==>  Preparing: UPDATE wx_thirdparty_info SET appid=?, verifyTicket=? WHERE (appid = ?) 
+===2018-07-31 13:19:35.235 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==> Parameters: wx1dada0eb497ff1a1(String), ticket@@@F_54ZIMhe6EsaGbToLO9HxUQkREX0h4Fk2GN-NkdjFPKx-_N0WdU3gjPzwYrZC43mVQWUtK2GxnsDgYUldQYtA(String), wx1dada0eb497ff1a1(String)
+===2018-07-31 13:19:35.319 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - <==    Updates: 1
+===2018-07-31 13:19:35.353 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success
+===2018-07-31 13:20:34.698 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 13:20:34.699 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 13:20:34.711 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 13:20:34.793 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.insert Line:159 - ==>  Preparing: INSERT INTO wx_upload_media ( id, authorizerAppid, localName, serviceName, mediaType, createTime ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+===2018-07-31 13:20:34.795 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.insert Line:159 - ==> Parameters: 1024162886354305026(Long), wx3a325cf730413730(String), tempFile1533003137(1).png(String), /resources/static/wx/medias/1024162886161367041.png(String), image(String), 1533014434(Long)
+===2018-07-31 13:20:34.943 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.insert Line:159 - <==    Updates: 1
+===2018-07-31 13:21:56.758 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 13:21:56.759 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 13:21:56.760 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 13:21:57.102 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 13:21:57.103 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 13:21:57.116 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 13:21:57.118 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - ==>  Preparing: SELECT id,authorizerAppid,localName,serviceName,mediaType,mediaId,createTime,wxUrl FROM wx_upload_media WHERE authorizerAppid=? AND (mediaType IN (?,?)) 
+===2018-07-31 13:21:57.119 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - ==> Parameters: wx3a325cf730413730(String), image(String), thumb(String)
+===2018-07-31 13:21:57.135 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - <==      Total: 2
+===2018-07-31 13:22:01.735 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 13:22:01.736 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 13:22:01.738 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 13:22:01.738 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - ==>  Preparing: SELECT id,authorizerAppid,localName,serviceName,mediaType,mediaId,createTime,wxUrl FROM wx_upload_media WHERE id=? 
+===2018-07-31 13:22:01.739 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - ==> Parameters: 1024162886354305026(Long)
+===2018-07-31 13:22:01.740 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - <==      Total: 1
+===2018-07-31 13:22:01.742 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.deleteById Line:159 - ==>  Preparing: DELETE FROM wx_upload_media WHERE id=? 
+===2018-07-31 13:22:01.742 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.deleteById Line:159 - ==> Parameters: 1024162886354305026(Long)
+===2018-07-31 13:22:01.828 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.deleteById Line:159 - <==    Updates: 1
+===2018-07-31 13:23:17.150 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 13:23:17.151 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 13:23:17.154 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 13:23:17.160 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.insert Line:159 - ==>  Preparing: INSERT INTO wx_upload_media ( id, authorizerAppid, localName, serviceName, mediaType, createTime ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+===2018-07-31 13:23:17.161 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.insert Line:159 - ==> Parameters: 1024163567366668290(Long), wx3a325cf730413730(String), 1533003137(1).png(String), /resources/static/wx/medias/1024163567354085377.png(String), image(String), 1533014597(Long)
+===2018-07-31 13:23:17.200 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.insert Line:159 - <==    Updates: 1
+===2018-07-31 13:24:56.373 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 13:24:56.374 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 13:24:56.376 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 13:24:56.383 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.insert Line:159 - ==>  Preparing: INSERT INTO wx_upload_media ( id, authorizerAppid, localName, serviceName, mediaType, createTime ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+===2018-07-31 13:24:56.384 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.insert Line:159 - ==> Parameters: 1024163983055749123(Long), wx3a325cf730413730(String), 1533003137(1).png(String), /resources/static/wx/medias/1024163983055749122.png(String), image(String), 1533014696(Long)
+===2018-07-31 13:24:56.481 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.insert Line:159 - <==    Updates: 1
+===2018-07-31 13:26:50.277 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 13:26:50.278 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 13:26:50.340 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 13:26:50.523 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 13:26:50.524 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 13:26:50.525 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 13:26:50.527 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - ==>  Preparing: SELECT id,authorizerAppid,localName,serviceName,mediaType,mediaId,createTime,wxUrl FROM wx_upload_media WHERE authorizerAppid=? AND (mediaType IN (?,?)) 
+===2018-07-31 13:26:50.528 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - ==> Parameters: wx3a325cf730413730(String), image(String), thumb(String)
+===2018-07-31 13:26:50.529 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - <==      Total: 3
+===2018-07-31 13:26:52.736 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 13:26:52.738 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 13:26:52.742 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 13:26:52.744 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - ==>  Preparing: SELECT id,authorizerAppid,localName,serviceName,mediaType,mediaId,createTime,wxUrl FROM wx_upload_media WHERE id=? 
+===2018-07-31 13:26:52.746 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - ==> Parameters: 1024163567366668290(Long)
+===2018-07-31 13:26:52.748 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - <==      Total: 1
+===2018-07-31 13:26:52.752 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.deleteById Line:159 - ==>  Preparing: DELETE FROM wx_upload_media WHERE id=? 
+===2018-07-31 13:26:52.753 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.deleteById Line:159 - ==> Parameters: 1024163567366668290(Long)
+===2018-07-31 13:26:52.798 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.deleteById Line:159 - <==    Updates: 1
+===2018-07-31 13:26:53.707 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 13:26:53.722 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 13:26:53.723 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 13:26:53.728 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - ==>  Preparing: SELECT id,authorizerAppid,localName,serviceName,mediaType,mediaId,createTime,wxUrl FROM wx_upload_media WHERE id=? 
+===2018-07-31 13:26:53.729 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - ==> Parameters: 1024163983055749123(Long)
+===2018-07-31 13:26:53.731 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - <==      Total: 1
+===2018-07-31 13:26:53.733 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.deleteById Line:159 - ==>  Preparing: DELETE FROM wx_upload_media WHERE id=? 
+===2018-07-31 13:26:53.733 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.deleteById Line:159 - ==> Parameters: 1024163983055749123(Long)
+===2018-07-31 13:26:53.772 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.deleteById Line:159 - <==    Updates: 1
+===2018-07-31 13:27:03.259 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 13:27:03.260 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 13:27:03.263 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 13:27:03.291 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.insert Line:159 - ==>  Preparing: INSERT INTO wx_upload_media ( id, authorizerAppid, localName, serviceName, mediaType, createTime ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+===2018-07-31 13:27:03.292 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.insert Line:159 - ==> Parameters: 1024164515807854594(Long), wx3a325cf730413730(String), 1533003137(1).png(String), /resources/static/wx/medias/1024164515803660290.png(String), image(String), 1533014823(Long)
+===2018-07-31 13:27:03.342 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.insert Line:159 - <==    Updates: 1
+===2018-07-31 13:28:32.036 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533014824, infoType=component_verify_ticket, componentVerifyTicket=ticket@@@F_54ZIMhe6EsaGbToLO9HxUQkREX0h4Fk2GN-NkdjFPKx-_N0WdU3gjPzwYrZC43mVQWUtK2GxnsDgYUldQYtA, authorizerAppid=null, authorizationCode=null, authorizationCodeExpiredTime=null, preAuthCode=null) 
+===2018-07-31 13:28:32.036 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533014824, infoType=component_verify_ticket, componentVerifyTicket=ticket@@@F_54ZIMhe6EsaGbToLO9HxUQkREX0h4Fk2GN-NkdjFPKx-_N0WdU3gjPzwYrZC43mVQWUtK2GxnsDgYUldQYtA, authorizerAppid=null, authorizationCode=null, authorizationCodeExpiredTime=null, preAuthCode=null) 
+===2018-07-31 13:28:32.046 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==>  Preparing: UPDATE wx_thirdparty_info SET appid=?, verifyTicket=? WHERE (appid = ?) 
+===2018-07-31 13:28:32.046 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==>  Preparing: UPDATE wx_thirdparty_info SET appid=?, verifyTicket=? WHERE (appid = ?) 
+===2018-07-31 13:28:32.047 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==> Parameters: wx1dada0eb497ff1a1(String), ticket@@@F_54ZIMhe6EsaGbToLO9HxUQkREX0h4Fk2GN-NkdjFPKx-_N0WdU3gjPzwYrZC43mVQWUtK2GxnsDgYUldQYtA(String), wx1dada0eb497ff1a1(String)
+===2018-07-31 13:28:32.047 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==> Parameters: wx1dada0eb497ff1a1(String), ticket@@@F_54ZIMhe6EsaGbToLO9HxUQkREX0h4Fk2GN-NkdjFPKx-_N0WdU3gjPzwYrZC43mVQWUtK2GxnsDgYUldQYtA(String), wx1dada0eb497ff1a1(String)
+===2018-07-31 13:28:32.050 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - <==    Updates: 1
+===2018-07-31 13:28:32.119 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success
+===2018-07-31 13:28:32.206 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - <==    Updates: 1
+===2018-07-31 13:28:32.244 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success
+===2018-07-31 13:28:40.494 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 13:28:40.496 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 13:28:40.497 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 13:28:40.958 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 13:28:40.959 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 13:28:40.960 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 13:28:40.962 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - ==>  Preparing: SELECT id,authorizerAppid,localName,serviceName,mediaType,mediaId,createTime,wxUrl FROM wx_upload_media WHERE authorizerAppid=? AND (mediaType IN (?,?)) 
+===2018-07-31 13:28:40.962 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - ==> Parameters: wx3a325cf730413730(String), image(String), thumb(String)
+===2018-07-31 13:28:40.964 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - <==      Total: 2
+===2018-07-31 13:32:03.768 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 13:32:03.769 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 13:32:03.770 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 13:32:03.778 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.insert Line:159 - ==>  Preparing: INSERT INTO wx_upload_media ( id, authorizerAppid, localName, serviceName, mediaType, createTime ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+===2018-07-31 13:32:03.779 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.insert Line:159 - ==> Parameters: 1024165776175235074(Long), wx3a325cf730413730(String), 1533003137(1).png(String), /resources/static/wx/medias/1024165776162652162.png(String), image(String), 1533015123(Long)
+===2018-07-31 13:32:03.840 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.insert Line:159 - <==    Updates: 1
+===2018-07-31 13:34:10.179 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 13:34:10.180 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 13:34:10.181 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 13:34:10.182 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - ==>  Preparing: SELECT id,authorizerAppid,localName,serviceName,mediaType,mediaId,createTime,wxUrl FROM wx_upload_media WHERE authorizerAppid=? AND (mediaType IN (?,?)) 
+===2018-07-31 13:34:10.183 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - ==> Parameters: wx3a325cf730413730(String), image(String), thumb(String)
+===2018-07-31 13:34:10.196 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - <==      Total: 3
+===2018-07-31 13:34:29.728 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 13:34:29.729 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 13:34:29.730 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 13:34:29.734 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.insert Line:159 - ==>  Preparing: INSERT INTO wx_upload_media ( id, authorizerAppid, localName, serviceName, mediaType, createTime ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+===2018-07-31 13:34:29.734 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.insert Line:159 - ==> Parameters: 1024166388333903874(Long), wx3a325cf730413730(String), ?.png(String), /resources/static/wx/medias/1024166388333903873.png(String), image(String), 1533015269(Long)
+===2018-07-31 13:34:29.808 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.insert Line:159 - <==    Updates: 1
+===2018-07-31 13:35:03.680 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 13:35:03.681 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 13:35:03.682 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 13:35:04.717 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 13:35:04.718 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 13:35:04.720 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 13:35:04.721 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - ==>  Preparing: SELECT id,authorizerAppid,localName,serviceName,mediaType,mediaId,createTime,wxUrl FROM wx_upload_media WHERE authorizerAppid=? AND (mediaType IN (?,?)) 
+===2018-07-31 13:35:04.728 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - ==> Parameters: wx3a325cf730413730(String), image(String), thumb(String)
+===2018-07-31 13:35:04.729 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - <==      Total: 4
+===2018-07-31 13:37:01.313 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533015422, infoType=component_verify_ticket, componentVerifyTicket=ticket@@@F_54ZIMhe6EsaGbToLO9HxUQkREX0h4Fk2GN-NkdjFPKx-_N0WdU3gjPzwYrZC43mVQWUtK2GxnsDgYUldQYtA, authorizerAppid=null, authorizationCode=null, authorizationCodeExpiredTime=null, preAuthCode=null) 
+===2018-07-31 13:37:01.323 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==>  Preparing: UPDATE wx_thirdparty_info SET appid=?, verifyTicket=? WHERE (appid = ?) 
+===2018-07-31 13:37:01.324 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==> Parameters: wx1dada0eb497ff1a1(String), ticket@@@F_54ZIMhe6EsaGbToLO9HxUQkREX0h4Fk2GN-NkdjFPKx-_N0WdU3gjPzwYrZC43mVQWUtK2GxnsDgYUldQYtA(String), wx1dada0eb497ff1a1(String)
+===2018-07-31 13:37:01.340 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - <==    Updates: 1
+===2018-07-31 13:37:01.371 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success
+===2018-07-31 13:43:23.814 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 13:43:23.815 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 13:43:23.849 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 13:43:23.852 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - ==>  Preparing: SELECT id,authorizerAppid,localName,serviceName,mediaType,mediaId,createTime,wxUrl FROM wx_upload_media WHERE authorizerAppid=? AND (mediaType IN (?,?)) 
+===2018-07-31 13:43:23.853 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - ==> Parameters: wx3a325cf730413730(String), image(String), thumb(String)
+===2018-07-31 13:43:23.893 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - <==      Total: 4
+===2018-07-31 13:53:33.516 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533016066, infoType=component_verify_ticket, componentVerifyTicket=ticket@@@F_54ZIMhe6EsaGbToLO9HxUQkREX0h4Fk2GN-NkdjFPKx-_N0WdU3gjPzwYrZC43mVQWUtK2GxnsDgYUldQYtA, authorizerAppid=null, authorizationCode=null, authorizationCodeExpiredTime=null, preAuthCode=null) 
+===2018-07-31 13:53:33.516 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 13:53:33.517 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 13:53:33.521 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533016066, infoType=component_verify_ticket, componentVerifyTicket=ticket@@@F_54ZIMhe6EsaGbToLO9HxUQkREX0h4Fk2GN-NkdjFPKx-_N0WdU3gjPzwYrZC43mVQWUtK2GxnsDgYUldQYtA, authorizerAppid=null, authorizationCode=null, authorizationCodeExpiredTime=null, preAuthCode=null) 
+===2018-07-31 13:53:33.524 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 13:53:33.525 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533016066, infoType=component_verify_ticket, componentVerifyTicket=ticket@@@F_54ZIMhe6EsaGbToLO9HxUQkREX0h4Fk2GN-NkdjFPKx-_N0WdU3gjPzwYrZC43mVQWUtK2GxnsDgYUldQYtA, authorizerAppid=null, authorizationCode=null, authorizationCodeExpiredTime=null, preAuthCode=null) 
+===2018-07-31 13:53:33.531 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==>  Preparing: UPDATE wx_thirdparty_info SET appid=?, verifyTicket=? WHERE (appid = ?) 
+===2018-07-31 13:53:33.532 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==> Parameters: wx1dada0eb497ff1a1(String), ticket@@@F_54ZIMhe6EsaGbToLO9HxUQkREX0h4Fk2GN-NkdjFPKx-_N0WdU3gjPzwYrZC43mVQWUtK2GxnsDgYUldQYtA(String), wx1dada0eb497ff1a1(String)
+===2018-07-31 13:53:33.536 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==>  Preparing: UPDATE wx_thirdparty_info SET appid=?, verifyTicket=? WHERE (appid = ?) 
+===2018-07-31 13:53:33.537 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==> Parameters: wx1dada0eb497ff1a1(String), ticket@@@F_54ZIMhe6EsaGbToLO9HxUQkREX0h4Fk2GN-NkdjFPKx-_N0WdU3gjPzwYrZC43mVQWUtK2GxnsDgYUldQYtA(String), wx1dada0eb497ff1a1(String)
+===2018-07-31 13:53:33.539 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==>  Preparing: UPDATE wx_thirdparty_info SET appid=?, verifyTicket=? WHERE (appid = ?) 
+===2018-07-31 13:53:33.539 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==> Parameters: wx1dada0eb497ff1a1(String), ticket@@@F_54ZIMhe6EsaGbToLO9HxUQkREX0h4Fk2GN-NkdjFPKx-_N0WdU3gjPzwYrZC43mVQWUtK2GxnsDgYUldQYtA(String), wx1dada0eb497ff1a1(String)
+===2018-07-31 13:53:34.784 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - <==    Updates: 1
+===2018-07-31 13:53:36.186 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success
+===2018-07-31 13:53:36.186 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - <==    Updates: 1
+===2018-07-31 13:53:36.239 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - <==    Updates: 1
+===2018-07-31 13:53:42.538 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success
+===2018-07-31 13:53:42.538 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success
+===2018-07-31 13:55:53.440 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.insert Line:159 - ==>  Preparing: INSERT INTO wx_upload_media ( id, authorizerAppid, localName, serviceName, mediaType, createTime ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+===2018-07-31 13:55:53.440 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.insert Line:159 - ==> Parameters: 1024171772608086018(Long), wx3a325cf730413730(String), ?.png(String), /resources/static/wx/medias/1024171226262241282.png(String), image(String), 1533016553(Long)
+===2018-07-31 13:55:53.515 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.insert Line:159 - <==    Updates: 1
+===2018-07-31 13:56:11.901 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 13:56:11.902 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 13:56:11.904 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 13:56:12.339 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 13:56:12.340 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 13:56:12.341 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 13:56:12.342 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - ==>  Preparing: SELECT id,authorizerAppid,localName,serviceName,mediaType,mediaId,createTime,wxUrl FROM wx_upload_media WHERE authorizerAppid=? AND (mediaType IN (?,?)) 
+===2018-07-31 13:56:12.343 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - ==> Parameters: wx3a325cf730413730(String), image(String), thumb(String)
+===2018-07-31 13:56:12.356 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - <==      Total: 5
+===2018-07-31 13:56:14.018 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 13:56:14.019 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 13:56:14.020 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 13:56:14.021 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - ==>  Preparing: SELECT id,authorizerAppid,localName,serviceName,mediaType,mediaId,createTime,wxUrl FROM wx_upload_media WHERE id=? 
+===2018-07-31 13:56:14.022 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - ==> Parameters: 1024166388333903874(Long)
+===2018-07-31 13:56:14.023 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - <==      Total: 1
+===2018-07-31 13:56:14.030 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.deleteById Line:159 - ==>  Preparing: DELETE FROM wx_upload_media WHERE id=? 
+===2018-07-31 13:56:14.040 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.deleteById Line:159 - ==> Parameters: 1024166388333903874(Long)
+===2018-07-31 13:56:14.121 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.deleteById Line:159 - <==    Updates: 1
+===2018-07-31 13:56:15.216 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 13:56:15.217 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 13:56:15.219 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 13:56:15.220 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - ==>  Preparing: SELECT id,authorizerAppid,localName,serviceName,mediaType,mediaId,createTime,wxUrl FROM wx_upload_media WHERE id=? 
+===2018-07-31 13:56:15.220 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - ==> Parameters: 1024171772608086018(Long)
+===2018-07-31 13:56:15.221 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - <==      Total: 1
+===2018-07-31 13:56:15.223 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.deleteById Line:159 - ==>  Preparing: DELETE FROM wx_upload_media WHERE id=? 
+===2018-07-31 13:56:15.224 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.deleteById Line:159 - ==> Parameters: 1024171772608086018(Long)
+===2018-07-31 13:56:15.255 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.deleteById Line:159 - <==    Updates: 1
+===2018-07-31 13:56:57.331 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533016605, infoType=component_verify_ticket, componentVerifyTicket=ticket@@@F_54ZIMhe6EsaGbToLO9HxUQkREX0h4Fk2GN-NkdjFPKx-_N0WdU3gjPzwYrZC43mVQWUtK2GxnsDgYUldQYtA, authorizerAppid=null, authorizationCode=null, authorizationCodeExpiredTime=null, preAuthCode=null) 
+===2018-07-31 13:56:57.338 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==>  Preparing: UPDATE wx_thirdparty_info SET appid=?, verifyTicket=? WHERE (appid = ?) 
+===2018-07-31 13:56:57.340 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==> Parameters: wx1dada0eb497ff1a1(String), ticket@@@F_54ZIMhe6EsaGbToLO9HxUQkREX0h4Fk2GN-NkdjFPKx-_N0WdU3gjPzwYrZC43mVQWUtK2GxnsDgYUldQYtA(String), wx1dada0eb497ff1a1(String)
+===2018-07-31 13:56:57.343 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - <==    Updates: 1
+===2018-07-31 13:56:57.402 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success
+===2018-07-31 13:57:25.988 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 13:57:25.989 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 13:57:25.991 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 13:57:25.993 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.insert Line:159 - ==>  Preparing: INSERT INTO wx_upload_media ( id, authorizerAppid, localName, serviceName, mediaType, createTime ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+===2018-07-31 13:57:25.994 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.insert Line:159 - ==> Parameters: 1024172160807698434(Long), wx3a325cf730413730(String), ?.png(String), /resources/static/wx/medias/1024172160803504129.png(String), image(String), 1533016645(Long)
+===2018-07-31 13:57:26.029 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.insert Line:159 - <==    Updates: 1
+===2018-07-31 13:57:36.386 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 13:57:36.387 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 13:57:36.402 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 13:57:36.797 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 13:57:36.797 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 13:57:36.798 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 13:57:36.800 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - ==>  Preparing: SELECT id,authorizerAppid,localName,serviceName,mediaType,mediaId,createTime,wxUrl FROM wx_upload_media WHERE authorizerAppid=? AND (mediaType IN (?,?)) 
+===2018-07-31 13:57:36.800 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - ==> Parameters: wx3a325cf730413730(String), image(String), thumb(String)
+===2018-07-31 13:57:36.801 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - <==      Total: 4
+===2018-07-31 13:57:38.356 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 13:57:38.358 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 13:57:38.359 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 13:57:38.360 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - ==>  Preparing: SELECT id,authorizerAppid,localName,serviceName,mediaType,mediaId,createTime,wxUrl FROM wx_upload_media WHERE id=? 
+===2018-07-31 13:57:38.360 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - ==> Parameters: 1024164515807854594(Long)
+===2018-07-31 13:57:38.362 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - <==      Total: 1
+===2018-07-31 13:57:38.364 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.deleteById Line:159 - ==>  Preparing: DELETE FROM wx_upload_media WHERE id=? 
+===2018-07-31 13:57:38.365 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.deleteById Line:159 - ==> Parameters: 1024164515807854594(Long)
+===2018-07-31 13:57:38.447 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.deleteById Line:159 - <==    Updates: 1
+===2018-07-31 13:57:39.538 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 13:57:39.539 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 13:57:39.540 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 13:57:39.541 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - ==>  Preparing: SELECT id,authorizerAppid,localName,serviceName,mediaType,mediaId,createTime,wxUrl FROM wx_upload_media WHERE id=? 
+===2018-07-31 13:57:39.542 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - ==> Parameters: 1024165776175235074(Long)
+===2018-07-31 13:57:39.543 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - <==      Total: 1
+===2018-07-31 13:57:39.546 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.deleteById Line:159 - ==>  Preparing: DELETE FROM wx_upload_media WHERE id=? 
+===2018-07-31 13:57:39.547 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.deleteById Line:159 - ==> Parameters: 1024165776175235074(Long)
+===2018-07-31 13:57:39.596 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.deleteById Line:159 - <==    Updates: 1
+===2018-07-31 13:57:41.833 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 13:57:41.835 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 13:57:41.836 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 13:57:42.246 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 13:57:42.246 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 13:57:42.247 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 13:57:42.249 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - ==>  Preparing: SELECT id,authorizerAppid,localName,serviceName,mediaType,mediaId,createTime,wxUrl FROM wx_upload_media WHERE authorizerAppid=? AND (mediaType IN (?,?)) 
+===2018-07-31 13:57:42.250 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - ==> Parameters: wx3a325cf730413730(String), image(String), thumb(String)
+===2018-07-31 13:57:42.251 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - <==      Total: 2
+===2018-07-31 14:00:46.375 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 14:00:46.376 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 14:00:46.378 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 14:00:46.385 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.insert Line:159 - ==>  Preparing: INSERT INTO wx_upload_media ( id, authorizerAppid, localName, serviceName, mediaType, createTime ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+===2018-07-31 14:00:46.386 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.insert Line:159 - ==> Parameters: 1024173001304276993(Long), wx3a325cf730413730(String), ?.png(String), /resources/static/wx/medias/1024173001287499777.png(String), image(String), 1533016846(Long)
+===2018-07-31 14:00:46.435 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.insert Line:159 - <==    Updates: 1
+===2018-07-31 14:00:53.053 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 14:00:53.054 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 14:00:53.056 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 14:00:53.200 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 14:00:53.201 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 14:00:53.202 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 14:00:53.204 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - ==>  Preparing: SELECT id,authorizerAppid,localName,serviceName,mediaType,mediaId,createTime,wxUrl FROM wx_upload_media WHERE authorizerAppid=? AND (mediaType IN (?,?)) 
+===2018-07-31 14:00:53.204 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - ==> Parameters: wx3a325cf730413730(String), image(String), thumb(String)
+===2018-07-31 14:00:53.206 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - <==      Total: 3
+===2018-07-31 14:00:54.575 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 14:00:54.576 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 14:00:54.578 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 14:00:54.579 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - ==>  Preparing: SELECT id,authorizerAppid,localName,serviceName,mediaType,mediaId,createTime,wxUrl FROM wx_upload_media WHERE id=? 
+===2018-07-31 14:00:54.580 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - ==> Parameters: 1024173001304276993(Long)
+===2018-07-31 14:00:54.581 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - <==      Total: 1
+===2018-07-31 14:00:54.585 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.deleteById Line:159 - ==>  Preparing: DELETE FROM wx_upload_media WHERE id=? 
+===2018-07-31 14:00:54.586 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.deleteById Line:159 - ==> Parameters: 1024173001304276993(Long)
+===2018-07-31 14:00:54.654 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.deleteById Line:159 - <==    Updates: 1
+===2018-07-31 14:00:55.389 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 14:00:55.390 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 14:00:55.391 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 14:00:55.392 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - ==>  Preparing: SELECT id,authorizerAppid,localName,serviceName,mediaType,mediaId,createTime,wxUrl FROM wx_upload_media WHERE id=? 
+===2018-07-31 14:00:55.393 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - ==> Parameters: 1024172160807698434(Long)
+===2018-07-31 14:00:55.394 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - <==      Total: 1
+===2018-07-31 14:00:55.396 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.deleteById Line:159 - ==>  Preparing: DELETE FROM wx_upload_media WHERE id=? 
+===2018-07-31 14:00:55.397 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.deleteById Line:159 - ==> Parameters: 1024172160807698434(Long)
+===2018-07-31 14:00:55.455 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.deleteById Line:159 - <==    Updates: 1
+===2018-07-31 14:01:41.191 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 14:01:41.237 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 14:01:41.238 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 14:01:41.243 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.insert Line:159 - ==>  Preparing: INSERT INTO wx_upload_media ( id, authorizerAppid, localName, serviceName, mediaType, createTime ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+===2018-07-31 14:01:41.243 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.insert Line:159 - ==> Parameters: 1024173231399600130(Long), wx3a325cf730413730(String), ?.png(String), /resources/static/wx/medias/1024173231391211521.png(String), image(String), 1533016901(Long)
+===2018-07-31 14:01:41.310 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.insert Line:159 - <==    Updates: 1
+===2018-07-31 14:07:16.316 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 14:07:16.317 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 14:07:16.320 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 14:07:16.324 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.insert Line:159 - ==>  Preparing: INSERT INTO wx_upload_media ( id, authorizerAppid, localName, serviceName, mediaType, createTime ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+===2018-07-31 14:07:16.325 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.insert Line:159 - ==> Parameters: 1024174636818595843(Long), wx3a325cf730413730(String), 中.png(String), /resources/static/wx/medias/1024174636818595842.png(String), image(String), 1533017236(Long)
+===2018-07-31 14:07:16.435 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.insert Line:159 - <==    Updates: 1
+===2018-07-31 14:07:22.482 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 14:07:22.484 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 14:07:22.485 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 14:07:22.486 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - ==>  Preparing: SELECT id,authorizerAppid,localName,serviceName,mediaType,mediaId,createTime,wxUrl FROM wx_upload_media WHERE id=? 
+===2018-07-31 14:07:22.486 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - ==> Parameters: 1024173231399600130(Long)
+===2018-07-31 14:07:22.494 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - <==      Total: 1
+===2018-07-31 14:07:22.496 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.deleteById Line:159 - ==>  Preparing: DELETE FROM wx_upload_media WHERE id=? 
+===2018-07-31 14:07:22.497 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.deleteById Line:159 - ==> Parameters: 1024173231399600130(Long)
+===2018-07-31 14:07:22.570 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.deleteById Line:159 - <==    Updates: 1
+===2018-07-31 14:07:22.611 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 14:07:22.611 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 14:07:22.612 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 14:07:22.613 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - ==>  Preparing: SELECT id,authorizerAppid,localName,serviceName,mediaType,mediaId,createTime,wxUrl FROM wx_upload_media WHERE id=? 
+===2018-07-31 14:07:22.613 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - ==> Parameters: 1024173231399600130(Long)
+===2018-07-31 14:07:22.614 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - <==      Total: 0
+===2018-07-31 14:07:26.142 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 14:07:26.143 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 14:07:26.145 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 14:07:26.329 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 14:07:26.330 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 14:07:26.331 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 14:07:26.333 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - ==>  Preparing: SELECT id,authorizerAppid,localName,serviceName,mediaType,mediaId,createTime,wxUrl FROM wx_upload_media WHERE authorizerAppid=? AND (mediaType IN (?,?)) 
+===2018-07-31 14:07:26.333 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - ==> Parameters: wx3a325cf730413730(String), image(String), thumb(String)
+===2018-07-31 14:07:26.389 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - <==      Total: 2
+===2018-07-31 14:07:56.974 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 14:07:56.975 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 14:07:56.976 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 14:07:56.979 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.insert Line:159 - ==>  Preparing: INSERT INTO wx_upload_media ( id, authorizerAppid, localName, serviceName, mediaType, createTime ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+===2018-07-31 14:07:56.980 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.insert Line:159 - ==> Parameters: 1024174807354802178(Long), wx3a325cf730413730(String), ?.png(String), /resources/static/wx/medias/1024174807342219265.png(String), image(String), 1533017276(Long)
+===2018-07-31 14:07:57.022 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.insert Line:159 - <==    Updates: 1
+===2018-07-31 14:08:00.513 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 14:08:00.514 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 14:08:00.515 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 14:08:00.516 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - ==>  Preparing: SELECT id,authorizerAppid,localName,serviceName,mediaType,mediaId,createTime,wxUrl FROM wx_upload_media WHERE id=? 
+===2018-07-31 14:08:00.517 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - ==> Parameters: 1024174807354802178(Long)
+===2018-07-31 14:08:00.518 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - <==      Total: 1
+===2018-07-31 14:08:00.520 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.deleteById Line:159 - ==>  Preparing: DELETE FROM wx_upload_media WHERE id=? 
+===2018-07-31 14:08:00.521 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.deleteById Line:159 - ==> Parameters: 1024174807354802178(Long)
+===2018-07-31 14:08:00.598 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.deleteById Line:159 - <==    Updates: 1
+===2018-07-31 14:08:19.963 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533017301, infoType=component_verify_ticket, componentVerifyTicket=ticket@@@GoDGJmCLeoZnfl_DQfaJ5v78Qq9FKXnN7pUWGdLJIQuqcjXJaNw7ltvRbOi_T_HVvYUX7n6QgO3Zh1ChYkbYpA, authorizerAppid=null, authorizationCode=null, authorizationCodeExpiredTime=null, preAuthCode=null) 
+===2018-07-31 14:08:19.965 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==>  Preparing: UPDATE wx_thirdparty_info SET appid=?, verifyTicket=? WHERE (appid = ?) 
+===2018-07-31 14:08:19.967 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==> Parameters: wx1dada0eb497ff1a1(String), ticket@@@GoDGJmCLeoZnfl_DQfaJ5v78Qq9FKXnN7pUWGdLJIQuqcjXJaNw7ltvRbOi_T_HVvYUX7n6QgO3Zh1ChYkbYpA(String), wx1dada0eb497ff1a1(String)
+===2018-07-31 14:08:19.968 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - <==    Updates: 1
+===2018-07-31 14:08:20.005 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success
+===2018-07-31 14:08:23.246 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 14:08:23.247 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 14:08:23.248 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 14:08:23.253 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.insert Line:159 - ==>  Preparing: INSERT INTO wx_upload_media ( id, authorizerAppid, localName, serviceName, mediaType, createTime ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+===2018-07-31 14:08:23.253 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.insert Line:159 - ==> Parameters: 1024174917551751169(Long), wx3a325cf730413730(String), ?.png(String), /resources/static/wx/medias/1024174917539168258.png(String), image(String), 1533017303(Long)
+===2018-07-31 14:08:23.332 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.insert Line:159 - <==    Updates: 1
+===2018-07-31 14:08:27.569 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 14:08:27.570 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 14:08:27.571 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 14:08:27.572 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - ==>  Preparing: SELECT id,authorizerAppid,localName,serviceName,mediaType,mediaId,createTime,wxUrl FROM wx_upload_media WHERE id=? 
+===2018-07-31 14:08:27.572 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - ==> Parameters: 1024174636818595843(Long)
+===2018-07-31 14:08:27.635 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - <==      Total: 1
+===2018-07-31 14:08:27.637 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.deleteById Line:159 - ==>  Preparing: DELETE FROM wx_upload_media WHERE id=? 
+===2018-07-31 14:08:27.638 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.deleteById Line:159 - ==> Parameters: 1024174636818595843(Long)
+===2018-07-31 14:08:27.673 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.deleteById Line:159 - <==    Updates: 1
+===2018-07-31 14:08:27.725 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 14:08:27.726 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 14:08:27.727 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 14:08:27.728 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - ==>  Preparing: SELECT id,authorizerAppid,localName,serviceName,mediaType,mediaId,createTime,wxUrl FROM wx_upload_media WHERE id=? 
+===2018-07-31 14:08:27.728 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - ==> Parameters: 1024174636818595843(Long)
+===2018-07-31 14:08:27.729 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - <==      Total: 0
+===2018-07-31 14:08:27.819 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 14:08:27.819 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 14:08:27.820 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 14:08:27.822 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - ==>  Preparing: SELECT id,authorizerAppid,localName,serviceName,mediaType,mediaId,createTime,wxUrl FROM wx_upload_media WHERE id=? 
+===2018-07-31 14:08:27.822 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - ==> Parameters: 1024174636818595843(Long)
+===2018-07-31 14:08:27.823 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - <==      Total: 0
+===2018-07-31 14:08:30.742 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 14:08:30.742 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 14:08:30.743 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 14:08:30.744 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - ==>  Preparing: SELECT id,authorizerAppid,localName,serviceName,mediaType,mediaId,createTime,wxUrl FROM wx_upload_media WHERE id=? 
+===2018-07-31 14:08:30.745 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - ==> Parameters: 1024174917551751169(Long)
+===2018-07-31 14:08:30.745 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - <==      Total: 1
+===2018-07-31 14:08:30.748 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.deleteById Line:159 - ==>  Preparing: DELETE FROM wx_upload_media WHERE id=? 
+===2018-07-31 14:08:30.748 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.deleteById Line:159 - ==> Parameters: 1024174917551751169(Long)
+===2018-07-31 14:08:30.782 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.deleteById Line:159 - <==    Updates: 1
+===2018-07-31 14:08:33.424 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 14:08:33.425 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 14:08:33.426 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 14:08:33.599 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 14:08:33.599 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 14:08:33.600 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 14:08:33.602 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - ==>  Preparing: SELECT id,authorizerAppid,localName,serviceName,mediaType,mediaId,createTime,wxUrl FROM wx_upload_media WHERE authorizerAppid=? AND (mediaType IN (?,?)) 
+===2018-07-31 14:08:33.602 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - ==> Parameters: wx3a325cf730413730(String), image(String), thumb(String)
+===2018-07-31 14:08:33.603 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 14:09:06.939 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 14:09:06.941 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 14:09:06.944 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 14:09:06.949 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.insert Line:159 - ==>  Preparing: INSERT INTO wx_upload_media ( id, authorizerAppid, localName, serviceName, mediaType, createTime ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+===2018-07-31 14:09:06.952 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.insert Line:159 - ==> Parameters: 1024175100830253057(Long), wx3a325cf730413730(String), ?.png(String), /resources/static/wx/medias/1024175100767338498.png(String), image(String), 1533017346(Long)
+===2018-07-31 14:09:07.027 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.insert Line:159 - <==    Updates: 1
+===2018-07-31 14:09:10.741 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 14:09:10.742 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 14:09:10.744 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 14:09:10.745 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - ==>  Preparing: SELECT id,authorizerAppid,localName,serviceName,mediaType,mediaId,createTime,wxUrl FROM wx_upload_media WHERE id=? 
+===2018-07-31 14:09:10.746 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - ==> Parameters: 1024175100830253057(Long)
+===2018-07-31 14:09:10.746 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectById Line:159 - <==      Total: 1
+===2018-07-31 14:09:10.750 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.deleteById Line:159 - ==>  Preparing: DELETE FROM wx_upload_media WHERE id=? 
+===2018-07-31 14:09:10.750 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.deleteById Line:159 - ==> Parameters: 1024175100830253057(Long)
+===2018-07-31 14:09:10.786 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.deleteById Line:159 - <==    Updates: 1
+===2018-07-31 14:09:16.646 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 14:09:16.647 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 14:09:16.649 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 14:09:16.940 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 14:09:16.941 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 14:09:16.942 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 14:09:16.943 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - ==>  Preparing: SELECT id,authorizerAppid,localName,serviceName,mediaType,mediaId,createTime,wxUrl FROM wx_upload_media WHERE authorizerAppid=? AND (mediaType IN (?,?)) 
+===2018-07-31 14:09:16.943 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - ==> Parameters: wx3a325cf730413730(String), image(String), thumb(String)
+===2018-07-31 14:09:16.944 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 14:09:25.021 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 14:09:25.022 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 14:09:25.024 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 14:09:25.190 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 14:09:25.192 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 14:09:25.193 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 14:09:25.194 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - ==>  Preparing: SELECT id,authorizerAppid,localName,serviceName,mediaType,mediaId,createTime,wxUrl FROM wx_upload_media WHERE authorizerAppid=? AND (mediaType IN (?,?)) 
+===2018-07-31 14:09:25.195 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - ==> Parameters: wx3a325cf730413730(String), image(String), thumb(String)
+===2018-07-31 14:09:25.197 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 14:09:35.086 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 14:09:35.087 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 14:09:35.088 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 14:09:35.094 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.insert Line:159 - ==>  Preparing: INSERT INTO wx_upload_media ( id, authorizerAppid, localName, serviceName, mediaType, createTime ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+===2018-07-31 14:09:35.094 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.insert Line:159 - ==> Parameters: 1024175218874744834(Long), wx3a325cf730413730(String), 中.png(String), /resources/static/wx/medias/1024175218857967617.png(String), image(String), 1533017375(Long)
+===2018-07-31 14:09:35.135 DEBUG com.kingtechfin.wxthirdparty.mapper.WxUploadMediaMapper.insert Line:159 - <==    Updates: 1
+===2018-07-31 14:17:30.002 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533017851, infoType=component_verify_ticket, componentVerifyTicket=ticket@@@GoDGJmCLeoZnfl_DQfaJ5v78Qq9FKXnN7pUWGdLJIQuqcjXJaNw7ltvRbOi_T_HVvYUX7n6QgO3Zh1ChYkbYpA, authorizerAppid=null, authorizationCode=null, authorizationCodeExpiredTime=null, preAuthCode=null) 
+===2018-07-31 14:17:30.013 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==>  Preparing: UPDATE wx_thirdparty_info SET appid=?, verifyTicket=? WHERE (appid = ?) 
+===2018-07-31 14:17:30.013 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==> Parameters: wx1dada0eb497ff1a1(String), ticket@@@GoDGJmCLeoZnfl_DQfaJ5v78Qq9FKXnN7pUWGdLJIQuqcjXJaNw7ltvRbOi_T_HVvYUX7n6QgO3Zh1ChYkbYpA(String), wx1dada0eb497ff1a1(String)
+===2018-07-31 14:17:30.064 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - <==    Updates: 1
+===2018-07-31 14:17:30.102 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success
+===2018-07-31 14:26:51.311 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533018412, infoType=component_verify_ticket, componentVerifyTicket=ticket@@@GoDGJmCLeoZnfl_DQfaJ5v78Qq9FKXnN7pUWGdLJIQuqcjXJaNw7ltvRbOi_T_HVvYUX7n6QgO3Zh1ChYkbYpA, authorizerAppid=null, authorizationCode=null, authorizationCodeExpiredTime=null, preAuthCode=null) 
+===2018-07-31 14:26:51.326 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==>  Preparing: UPDATE wx_thirdparty_info SET appid=?, verifyTicket=? WHERE (appid = ?) 
+===2018-07-31 14:26:51.328 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==> Parameters: wx1dada0eb497ff1a1(String), ticket@@@GoDGJmCLeoZnfl_DQfaJ5v78Qq9FKXnN7pUWGdLJIQuqcjXJaNw7ltvRbOi_T_HVvYUX7n6QgO3Zh1ChYkbYpA(String), wx1dada0eb497ff1a1(String)
+===2018-07-31 14:26:51.357 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - <==    Updates: 1
+===2018-07-31 14:26:51.394 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success
+===2018-07-31 14:37:30.175 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533019051, infoType=component_verify_ticket, componentVerifyTicket=ticket@@@GoDGJmCLeoZnfl_DQfaJ5v78Qq9FKXnN7pUWGdLJIQuqcjXJaNw7ltvRbOi_T_HVvYUX7n6QgO3Zh1ChYkbYpA, authorizerAppid=null, authorizationCode=null, authorizationCodeExpiredTime=null, preAuthCode=null) 
+===2018-07-31 14:37:30.178 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==>  Preparing: UPDATE wx_thirdparty_info SET appid=?, verifyTicket=? WHERE (appid = ?) 
+===2018-07-31 14:37:30.179 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==> Parameters: wx1dada0eb497ff1a1(String), ticket@@@GoDGJmCLeoZnfl_DQfaJ5v78Qq9FKXnN7pUWGdLJIQuqcjXJaNw7ltvRbOi_T_HVvYUX7n6QgO3Zh1ChYkbYpA(String), wx1dada0eb497ff1a1(String)
+===2018-07-31 14:37:30.181 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - <==    Updates: 1
+===2018-07-31 14:37:30.217 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success
+===2018-07-31 14:47:04.200 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533019625, infoType=component_verify_ticket, componentVerifyTicket=ticket@@@GoDGJmCLeoZnfl_DQfaJ5v78Qq9FKXnN7pUWGdLJIQuqcjXJaNw7ltvRbOi_T_HVvYUX7n6QgO3Zh1ChYkbYpA, authorizerAppid=null, authorizationCode=null, authorizationCodeExpiredTime=null, preAuthCode=null) 
+===2018-07-31 14:47:04.208 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==>  Preparing: UPDATE wx_thirdparty_info SET appid=?, verifyTicket=? WHERE (appid = ?) 
+===2018-07-31 14:47:04.209 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==> Parameters: wx1dada0eb497ff1a1(String), ticket@@@GoDGJmCLeoZnfl_DQfaJ5v78Qq9FKXnN7pUWGdLJIQuqcjXJaNw7ltvRbOi_T_HVvYUX7n6QgO3Zh1ChYkbYpA(String), wx1dada0eb497ff1a1(String)
+===2018-07-31 14:47:04.247 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - <==    Updates: 1
+===2018-07-31 14:47:04.321 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success
+===2018-07-31 14:52:01.388 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 14:52:01.389 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 14:52:01.411 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 14:53:10.041 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 14:53:10.042 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 14:53:10.044 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 14:53:33.391 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 14:53:33.392 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 14:53:33.393 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 14:53:34.641 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 14:53:34.642 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 14:53:34.644 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 14:55:01.002 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 14:55:01.003 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 14:55:01.004 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 0
+===2018-07-31 14:55:39.815 DEBUG com.kingtechfin.wxthirdparty.thirdman.WxThirdServiceImpl Line:47  - 
+【请求地址】: https://api.weixin.qq.com/cgi-bin/component/api_component_token
+【请求参数】：{"component_appid":"wx1dada0eb497ff1a1","component_appsecret":"17d73ef0d1cedd53c0a2a5f4f281c5b0","component_verify_ticket":"ticket@@@GoDGJmCLeoZnfl_DQfaJ5v78Qq9FKXnN7pUWGdLJIQuqcjXJaNw7ltvRbOi_T_HVvYUX7n6QgO3Zh1ChYkbYpA"}
+【响应数据】：{"component_access_token":"12_cdzs-ngoyZlagCjALfkPqVW9E46EFETb1h5kxan1YOCv-RiKK3SDpROm6PIKeq6VkF_Ct3BaW8itUVFzDb62QQc_E6ybgYRM746TMBcuhwdm-yiCBOZO8GaxLhhGhH4HqclZqzs3YDV_zlqUEPKaAIANYT","expires_in":7200}
+===2018-07-31 14:55:40.065 DEBUG com.kingtechfin.wxthirdparty.thirdman.WxThirdServiceImpl Line:47  - 
+【请求地址】: https://api.weixin.qq.com/cgi-bin/component/api_create_preauthcode?component_access_token=12_cdzs-ngoyZlagCjALfkPqVW9E46EFETb1h5kxan1YOCv-RiKK3SDpROm6PIKeq6VkF_Ct3BaW8itUVFzDb62QQc_E6ybgYRM746TMBcuhwdm-yiCBOZO8GaxLhhGhH4HqclZqzs3YDV_zlqUEPKaAIANYT
+【请求参数】：{"component_appid":"wx1dada0eb497ff1a1"}
+【响应数据】：{"pre_auth_code":"preauthcode@@@tzUwYBr4ZFozBvCUuFJI0uL0YRw2ikZ1POPFTRJLSLr0DtA_ukk2_-0gY_7tYk9q","expires_in":1800}
+===2018-07-31 14:59:32.612 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 14:59:32.613 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 14:59:32.614 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 0
+===2018-07-31 14:59:35.835 DEBUG com.kingtechfin.wxthirdparty.thirdman.WxThirdServiceImpl Line:47  - 
+【请求地址】: https://api.weixin.qq.com/cgi-bin/component/api_create_preauthcode?component_access_token=12_cdzs-ngoyZlagCjALfkPqVW9E46EFETb1h5kxan1YOCv-RiKK3SDpROm6PIKeq6VkF_Ct3BaW8itUVFzDb62QQc_E6ybgYRM746TMBcuhwdm-yiCBOZO8GaxLhhGhH4HqclZqzs3YDV_zlqUEPKaAIANYT
+【请求参数】：{"component_appid":"wx1dada0eb497ff1a1"}
+【响应数据】：{"pre_auth_code":"preauthcode@@@djA1m1oRseiMp1KknHh_3K9pcdWMdxvB6qxOb282MqBcf7WBJjpO8OwSmnKaXOpu","expires_in":1800}
+===2018-07-31 15:00:31.553 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 15:00:31.555 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 15:00:31.558 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 0
+===2018-07-31 15:00:32.649 DEBUG com.kingtechfin.wxthirdparty.thirdman.WxThirdServiceImpl Line:47  - 
+【请求地址】: https://api.weixin.qq.com/cgi-bin/component/api_create_preauthcode?component_access_token=12_cdzs-ngoyZlagCjALfkPqVW9E46EFETb1h5kxan1YOCv-RiKK3SDpROm6PIKeq6VkF_Ct3BaW8itUVFzDb62QQc_E6ybgYRM746TMBcuhwdm-yiCBOZO8GaxLhhGhH4HqclZqzs3YDV_zlqUEPKaAIANYT
+【请求参数】：{"component_appid":"wx1dada0eb497ff1a1"}
+【响应数据】：{"pre_auth_code":"preauthcode@@@ZAs_8DxXBRoug6dhe4QnpIze128Ga3oi2wZg1LlXqaxmsIMo34nhO0rQK23-uvyO","expires_in":1800}
+===2018-07-31 15:00:32.872 DEBUG com.kingtechfin.wxthirdparty.thirdman.WxThirdServiceImpl Line:47  - 
+【请求地址】: https://api.weixin.qq.com/cgi-bin/component/api_create_preauthcode?component_access_token=12_cdzs-ngoyZlagCjALfkPqVW9E46EFETb1h5kxan1YOCv-RiKK3SDpROm6PIKeq6VkF_Ct3BaW8itUVFzDb62QQc_E6ybgYRM746TMBcuhwdm-yiCBOZO8GaxLhhGhH4HqclZqzs3YDV_zlqUEPKaAIANYT
+【请求参数】：{"component_appid":"wx1dada0eb497ff1a1"}
+【响应数据】：{"pre_auth_code":"preauthcode@@@KeS9cwNw_CxzYj4LS_4rKQ46T_zNxz59hrzTAXqd63g4M0DLt9qC_T0nV6_mq6W2","expires_in":1800}
+===2018-07-31 15:00:45.275 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 15:00:45.276 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 15:00:45.277 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 0
+===2018-07-31 15:00:46.175 DEBUG com.kingtechfin.wxthirdparty.thirdman.WxThirdServiceImpl Line:47  - 
+【请求地址】: https://api.weixin.qq.com/cgi-bin/component/api_query_auth?component_access_token=12_cdzs-ngoyZlagCjALfkPqVW9E46EFETb1h5kxan1YOCv-RiKK3SDpROm6PIKeq6VkF_Ct3BaW8itUVFzDb62QQc_E6ybgYRM746TMBcuhwdm-yiCBOZO8GaxLhhGhH4HqclZqzs3YDV_zlqUEPKaAIANYT
+【请求参数】：{"component_appid":"wx1dada0eb497ff1a1","authorization_code":"queryauthcode@@@OLwBh3VaNbugnXeyrq5V6Hg9xs6A7AyQqeZNcKKbbSuLM4IA_sdiB2TT0S9DoplwEW_gu0OfIRQK_lcL3VvAQg"}
+【响应数据】：{"authorization_info":{"authorizer_appid":"wx3a325cf730413730","authorizer_access_token":"12_kr_67TBLyeWYfB1n7TN7cErh-dKitoCxc8uW3gaR-ijsZD-w5vsHgfNaXjxxTR12E8S_5d7cf9JzzCwaEERb11m9ZCUYKaDZsIYEK17AaETySNcJdWCm6Lpj_7KpsiRo_px79F13FAdv9y9zFIFfAEDBEB","expires_in":7200,"authorizer_refresh_token":"refreshtoken@@@XfhPubsfscBGmhWeit5dKhz7r9LuSbYlrEsXBi_PKR4","func_info":[{"funcscope_category":{"id":1}},{"funcscope_category":{"id":15}},{"funcscope_category":{"id":4}},{"funcscope_category":{"id":7}},{"funcscope_category":{"id":2}},{"funcscope_category":{"id":3}},{"funcscope_category":{"id":11}},{"funcscope_category":{"id":6}},{"funcscope_category":{"id":9}},{"funcscope_category":{"id":10}},{"funcscope_category":{"id":23}},{"funcscope_category":{"id":24},"confirm_info":{"need_confirm":0,"already_confirm":0,"can_confirm":0}}]}}
+===2018-07-31 15:00:46.205 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 15:00:46.206 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 15:00:46.207 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 0
+===2018-07-31 15:00:46.471 DEBUG com.kingtechfin.wxthirdparty.thirdman.WxThirdServiceImpl Line:47  - 
+【请求地址】: https://api.weixin.qq.com/cgi-bin/component/api_get_authorizer_info?component_access_token=12_cdzs-ngoyZlagCjALfkPqVW9E46EFETb1h5kxan1YOCv-RiKK3SDpROm6PIKeq6VkF_Ct3BaW8itUVFzDb62QQc_E6ybgYRM746TMBcuhwdm-yiCBOZO8GaxLhhGhH4HqclZqzs3YDV_zlqUEPKaAIANYT
+【请求参数】：{"component_appid":"wx1dada0eb497ff1a1","authorizer_appid":"wx3a325cf730413730"}
+【响应数据】：{"authorizer_info":{"nick_name":"金证前海Test","service_type_info":{"id":2},"verify_type_info":{"id":0},"user_name":"gh_955672f3d8f2","alias":"","qrcode_url":"http:\/\/mmbiz.qpic.cn\/mmbiz_jpg\/2GNVbdrciagjyrWyQO1wjwlvMZEGSqOhv6z0dSV2khmPxKYseCvpwGrslA4jWQTS2sXLOCzXC8Cr752mKoB74IA\/0","business_info":{"open_pay":0,"open_shake":0,"open_scan":0,"open_card":0,"open_store":0},"idc":1,"principal_name":"深圳市金证前海金融科技有限公司","signature":"金证前海Test"},"authorization_info":{"authorizer_appid":"wx3a325cf730413730","authorizer_refresh_token":"refreshtoken@@@XfhPubsfscBGmhWeit5dKhz7r9LuSbYlrEsXBi_PKR4","func_info":[{"funcscope_category":{"id":1}},{"funcscope_category":{"id":15}},{"funcscope_category":{"id":4}},{"funcscope_category":{"id":7}},{"funcscope_category":{"id":2}},{"funcscope_category":{"id":3}},{"funcscope_category":{"id":11}},{"funcscope_category":{"id":6}},{"funcscope_category":{"id":9}},{"funcscope_category":{"id":10}},{"funcscope_category":{"id":23}},{"funcscope_category":{"id":24},"confirm_info":{"need_confirm":0,"already_confirm":0,"can_confirm":0}}]}}
+===2018-07-31 15:00:46.577 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.updateById Line:159 - ==>  Preparing: UPDATE wx_vipcn_auth_info SET orgId=?, authorizerAppid=?, authorizerRefreshToken=?, nickName=?, userName=?, principalName=?, signature=?, serviceType=?, verifyType=? WHERE id=? 
+===2018-07-31 15:00:46.628 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.updateById Line:159 - ==> Parameters: 1(Long), wx3a325cf730413730(String), refreshtoken@@@XfhPubsfscBGmhWeit5dKhz7r9LuSbYlrEsXBi_PKR4(String), 金证前海Test(String), gh_955672f3d8f2(String), 深圳市金证前海金融科技有限公司(String), 金证前海Test(String), 2(Integer), 0(Integer), null
+===2018-07-31 15:00:46.653 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.updateById Line:159 - <==    Updates: 0
+===2018-07-31 15:00:46.659 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.insert Line:159 - ==>  Preparing: INSERT INTO wx_vipcn_auth_info ( id, orgId, authorizerAppid, authorizerRefreshToken, nickName, userName, principalName, signature, serviceType, verifyType ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+===2018-07-31 15:00:46.659 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.insert Line:159 - ==> Parameters: 1024188101947916289(Long), 1(Long), wx3a325cf730413730(String), refreshtoken@@@XfhPubsfscBGmhWeit5dKhz7r9LuSbYlrEsXBi_PKR4(String), 金证前海Test(String), gh_955672f3d8f2(String), 深圳市金证前海金融科技有限公司(String), 金证前海Test(String), 2(Integer), 0(Integer)
+===2018-07-31 15:00:46.732 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.insert Line:159 - <==    Updates: 1
+===2018-07-31 15:00:48.089 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 15:00:48.091 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 15:00:48.092 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 15:03:36.003 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 15:03:36.004 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 15:03:36.006 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 15:06:06.221 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 15:06:06.222 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 15:06:06.222 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 0
+===2018-07-31 15:06:09.295 DEBUG com.kingtechfin.wxthirdparty.thirdman.WxThirdServiceImpl Line:47  - 
+【请求地址】: https://api.weixin.qq.com/cgi-bin/component/api_create_preauthcode?component_access_token=12_cdzs-ngoyZlagCjALfkPqVW9E46EFETb1h5kxan1YOCv-RiKK3SDpROm6PIKeq6VkF_Ct3BaW8itUVFzDb62QQc_E6ybgYRM746TMBcuhwdm-yiCBOZO8GaxLhhGhH4HqclZqzs3YDV_zlqUEPKaAIANYT
+【请求参数】：{"component_appid":"wx1dada0eb497ff1a1"}
+【响应数据】：{"pre_auth_code":"preauthcode@@@yzEM5kt2dF3h1tJxQxUhnxnrFE7KklW_zxZo9qqkcvhsKifNWtc4LK0zrIPAEmb4","expires_in":1800}
+===2018-07-31 15:10:07.125 DEBUG com.kingtechfin.wxthirdparty.WxthirdpartyApplication Line:53  - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+===2018-07-31 15:10:12.719 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,appid,appsecret,token,aesKey,redirectUrl,verifyTicket FROM wx_thirdparty_info 
+===2018-07-31 15:10:12.735 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.selectList Line:159 - ==> Parameters: 
+===2018-07-31 15:10:12.773 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 15:10:12.791 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info 
+===2018-07-31 15:10:12.792 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 
+===2018-07-31 15:10:12.824 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 0
+===2018-07-31 15:10:40.755 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533020941, infoType=authorized, componentVerifyTicket=null, authorizerAppid=wx3a325cf730413730, authorizationCode=queryauthcode@@@ZCzTryDqKPFFUtiJGZ2lpSLZhWgGX1REGlsSIiomhNXfCM_rG1Sg12FRcQhSBMYh5RCBXgU9z6-65K37qKOGCA, authorizationCodeExpiredTime=1533024541, preAuthCode=preauthcode@@@yzEM5kt2dF3h1tJxQxUhnxnrFE7KklW_zxZo9qqkcvhsKifNWtc4LK0zrIPAEmb4) 
+===2018-07-31 15:10:41.127 DEBUG com.kingtechfin.wxthirdparty.thirdman.WxThirdServiceImpl Line:47  - 
+【请求地址】: https://api.weixin.qq.com/cgi-bin/component/api_component_token
+【请求参数】：{"component_appid":"wx1dada0eb497ff1a1","component_appsecret":"17d73ef0d1cedd53c0a2a5f4f281c5b0","component_verify_ticket":"ticket@@@GoDGJmCLeoZnfl_DQfaJ5v78Qq9FKXnN7pUWGdLJIQuqcjXJaNw7ltvRbOi_T_HVvYUX7n6QgO3Zh1ChYkbYpA"}
+【响应数据】：{"component_access_token":"12_OlE4bC_-ccL_tbI6u7ay2BUNK6vIQK8Cgb2yLB4HMjF-GgThd8xVPXFFE2YX7toAqbHzYXbi1VGIKcDAHJoF7LWXcfWjrV32OajpMuY6CBuvK49-jhRpXP2xQoyzkQmfjxStk1ibtqCOJVdPYCOgABAUYK","expires_in":7200}
+===2018-07-31 15:11:12.784 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533021031, infoType=unauthorized, componentVerifyTicket=null, authorizerAppid=wx3a325cf730413730, authorizationCode=null, authorizationCodeExpiredTime=null, preAuthCode=null) 
+===2018-07-31 15:11:12.786 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533021031, infoType=unauthorized, componentVerifyTicket=null, authorizerAppid=wx3a325cf730413730, authorizationCode=null, authorizationCodeExpiredTime=null, preAuthCode=null) 
+===2018-07-31 15:11:12.810 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.delete Line:159 - ==>  Preparing: DELETE FROM wx_vipcn_auth_info WHERE authorizerAppid=? 
+===2018-07-31 15:11:12.816 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.delete Line:159 - ==> Parameters: wx3a325cf730413730(String)
+===2018-07-31 15:11:12.815 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.delete Line:159 - ==>  Preparing: DELETE FROM wx_vipcn_auth_info WHERE authorizerAppid=? 
+===2018-07-31 15:11:12.817 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.delete Line:159 - ==> Parameters: wx3a325cf730413730(String)
+===2018-07-31 15:11:12.817 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.delete Line:159 - <==    Updates: 0
+===2018-07-31 15:11:12.819 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success
+===2018-07-31 15:11:12.826 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.delete Line:159 - <==    Updates: 0
+===2018-07-31 15:11:12.828 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success
+===2018-07-31 15:12:11.875 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 15:12:11.876 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 15:12:11.877 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 0
+===2018-07-31 15:12:18.318 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 15:12:18.319 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 15:12:18.320 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 0
+===2018-07-31 15:18:07.797 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533021489, infoType=component_verify_ticket, componentVerifyTicket=ticket@@@dhpLHnI3gIoZhfTr3YZ_KN7ulRcWhGDe_YFSQhUEK9Z4VeI9RuRBc728t9TPH91BtLwc9qpKxE_liVr5-V3-BQ, authorizerAppid=null, authorizationCode=null, authorizationCodeExpiredTime=null, preAuthCode=null) 
+===2018-07-31 15:18:07.803 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==>  Preparing: UPDATE wx_thirdparty_info SET appid=?, verifyTicket=? WHERE (appid = ?) 
+===2018-07-31 15:18:07.804 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==> Parameters: wx1dada0eb497ff1a1(String), ticket@@@dhpLHnI3gIoZhfTr3YZ_KN7ulRcWhGDe_YFSQhUEK9Z4VeI9RuRBc728t9TPH91BtLwc9qpKxE_liVr5-V3-BQ(String), wx1dada0eb497ff1a1(String)
+===2018-07-31 15:18:07.806 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - <==    Updates: 1
+===2018-07-31 15:18:07.842 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success
+===2018-07-31 15:18:31.435 DEBUG com.kingtechfin.wxthirdparty.WxthirdpartyApplication Line:53  - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+===2018-07-31 15:18:35.122 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,appid,appsecret,token,aesKey,redirectUrl,verifyTicket FROM wx_thirdparty_info 
+===2018-07-31 15:18:35.139 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.selectList Line:159 - ==> Parameters: 
+===2018-07-31 15:18:35.151 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 15:18:35.168 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info 
+===2018-07-31 15:18:35.168 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 
+===2018-07-31 15:18:35.193 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 0
+===2018-07-31 15:21:12.287 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 15:21:12.288 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 15:21:12.289 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 0
+===2018-07-31 15:21:16.421 DEBUG com.kingtechfin.wxthirdparty.thirdman.WxThirdServiceImpl Line:47  - 
+【请求地址】: https://api.weixin.qq.com/cgi-bin/component/api_component_token
+【请求参数】：{"component_appid":"wx1dada0eb497ff1a1","component_appsecret":"17d73ef0d1cedd53c0a2a5f4f281c5b0","component_verify_ticket":"ticket@@@dhpLHnI3gIoZhfTr3YZ_KN7ulRcWhGDe_YFSQhUEK9Z4VeI9RuRBc728t9TPH91BtLwc9qpKxE_liVr5-V3-BQ"}
+【响应数据】：{"component_access_token":"12_6zsZzUgWeZcNiOVWTF8-pe_4tpP60_td5lOFW-6Xd7QPIEQLaFQj_DouHi3PG7qAUpNdmiOkeeIfqQ1i3m3ypt8XXitjuXNgHeVQ7ZLT20GXlTWrNQlekaGptnsais2vFGBBAKHl_NctTKPqQOQdAJAXVX","expires_in":7200}
+===2018-07-31 15:21:16.659 DEBUG com.kingtechfin.wxthirdparty.thirdman.WxThirdServiceImpl Line:47  - 
+【请求地址】: https://api.weixin.qq.com/cgi-bin/component/api_create_preauthcode?component_access_token=12_6zsZzUgWeZcNiOVWTF8-pe_4tpP60_td5lOFW-6Xd7QPIEQLaFQj_DouHi3PG7qAUpNdmiOkeeIfqQ1i3m3ypt8XXitjuXNgHeVQ7ZLT20GXlTWrNQlekaGptnsais2vFGBBAKHl_NctTKPqQOQdAJAXVX
+【请求参数】：{"component_appid":"wx1dada0eb497ff1a1"}
+【响应数据】：{"pre_auth_code":"preauthcode@@@p100k49W1eGseFydXX1f3KGXNhLyVrpLVRSZSkHWQwUYjS9pTYDexmB54pPmpPSH","expires_in":1800}
+===2018-07-31 15:21:32.110 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 15:21:32.112 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 15:21:32.113 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 0
+===2018-07-31 15:21:35.875 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 15:21:35.877 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 15:21:35.878 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 0
+===2018-07-31 15:21:52.754 DEBUG com.kingtechfin.wxthirdparty.thirdman.WxThirdServiceImpl Line:47  - 
+【请求地址】: https://api.weixin.qq.com/cgi-bin/component/api_create_preauthcode?component_access_token=12_6zsZzUgWeZcNiOVWTF8-pe_4tpP60_td5lOFW-6Xd7QPIEQLaFQj_DouHi3PG7qAUpNdmiOkeeIfqQ1i3m3ypt8XXitjuXNgHeVQ7ZLT20GXlTWrNQlekaGptnsais2vFGBBAKHl_NctTKPqQOQdAJAXVX
+【请求参数】：{"component_appid":"wx1dada0eb497ff1a1"}
+【响应数据】：{"pre_auth_code":"preauthcode@@@BJc8cQkW4rF4-uzQEwKCtNfniKgoj4nTm2ktNE7hMSgTwvk6qOQRwzF6G3cY62St","expires_in":1800}
+===2018-07-31 15:22:01.727 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533021722, infoType=authorized, componentVerifyTicket=null, authorizerAppid=wx3a325cf730413730, authorizationCode=queryauthcode@@@9iT3mvr90feR-uEHZ1JLGu04os0qDVCXlaH4Jgi48GiLlMqAEjOmx6sWtBYtgab4OWQOj2GYIkRXRIKBKihmsA, authorizationCodeExpiredTime=1533025322, preAuthCode=preauthcode@@@BJc8cQkW4rF4-uzQEwKCtNfniKgoj4nTm2ktNE7hMSgTwvk6qOQRwzF6G3cY62St) 
+===2018-07-31 15:22:02.433 DEBUG com.kingtechfin.wxthirdparty.thirdman.WxThirdServiceImpl Line:47  - 
+【请求地址】: https://api.weixin.qq.com/cgi-bin/component/api_query_auth?component_access_token=12_6zsZzUgWeZcNiOVWTF8-pe_4tpP60_td5lOFW-6Xd7QPIEQLaFQj_DouHi3PG7qAUpNdmiOkeeIfqQ1i3m3ypt8XXitjuXNgHeVQ7ZLT20GXlTWrNQlekaGptnsais2vFGBBAKHl_NctTKPqQOQdAJAXVX
+【请求参数】：{"component_appid":"wx1dada0eb497ff1a1","authorization_code":"queryauthcode@@@9iT3mvr90feR-uEHZ1JLGu04os0qDVCXlaH4Jgi48GiLlMqAEjOmx6sWtBYtgab4OWQOj2GYIkRXRIKBKihmsA"}
+【响应数据】：{"authorization_info":{"authorizer_appid":"wx3a325cf730413730","authorizer_access_token":"12_fCWHBsmqst96PpbTIx0KN0zuHgcsK3CYyv9XWqCn-qpu_IJI9DkeppeYH5sUjcW-QsAw4ZdsQH8myutZEG_nNEuCEjvYz3OxYnGh69zjTDaed-Sg8J-vpu3WD_5A0L3LDfT5eOTFGNK4KD-xJWHiAJDYLW","expires_in":7200,"authorizer_refresh_token":"refreshtoken@@@XfhPubsfscBGmhWeit5dKhz7r9LuSbYlrEsXBi_PKR4","func_info":[{"funcscope_category":{"id":1}},{"funcscope_category":{"id":15}},{"funcscope_category":{"id":4}},{"funcscope_category":{"id":7}},{"funcscope_category":{"id":2}},{"funcscope_category":{"id":3}},{"funcscope_category":{"id":11}},{"funcscope_category":{"id":6}},{"funcscope_category":{"id":9}},{"funcscope_category":{"id":10}},{"funcscope_category":{"id":23}},{"funcscope_category":{"id":24},"confirm_info":{"need_confirm":0,"already_confirm":0,"can_confirm":0}}]}}
+===2018-07-31 15:22:02.439 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success
+===2018-07-31 15:22:04.163 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 15:22:04.164 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 15:22:04.165 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 0
+===2018-07-31 15:22:04.570 DEBUG com.kingtechfin.wxthirdparty.thirdman.WxThirdServiceImpl Line:47  - 
+【请求地址】: https://api.weixin.qq.com/cgi-bin/component/api_query_auth?component_access_token=12_6zsZzUgWeZcNiOVWTF8-pe_4tpP60_td5lOFW-6Xd7QPIEQLaFQj_DouHi3PG7qAUpNdmiOkeeIfqQ1i3m3ypt8XXitjuXNgHeVQ7ZLT20GXlTWrNQlekaGptnsais2vFGBBAKHl_NctTKPqQOQdAJAXVX
+【请求参数】：{"component_appid":"wx1dada0eb497ff1a1","authorization_code":"queryauthcode@@@9iT3mvr90feR-uEHZ1JLGu04os0qDVCXlaH4Jgi48GiLlMqAEjOmx6sWtBYtgab4OWQOj2GYIkRXRIKBKihmsA"}
+【响应数据】：{"authorization_info":{"authorizer_appid":"wx3a325cf730413730","authorizer_access_token":"12_nD5esjiMu0zoCMxcIx0KN0zuHgcsK3CYyv9XWqCn-qpu_IJI9DkeppeYH5sUjcW-QsAw4ZdsQH8myutZ-halPxZZnI2ppLsy5KMeLGtoFSnxn1rrTAolfE2o012lsD1caTklaLsCuNmps9jTNOPiAJDJKL","expires_in":7197,"authorizer_refresh_token":"refreshtoken@@@XfhPubsfscBGmhWeit5dKhz7r9LuSbYlrEsXBi_PKR4","func_info":[{"funcscope_category":{"id":1}},{"funcscope_category":{"id":15}},{"funcscope_category":{"id":4}},{"funcscope_category":{"id":7}},{"funcscope_category":{"id":2}},{"funcscope_category":{"id":3}},{"funcscope_category":{"id":11}},{"funcscope_category":{"id":6}},{"funcscope_category":{"id":9}},{"funcscope_category":{"id":10}},{"funcscope_category":{"id":23}},{"funcscope_category":{"id":24},"confirm_info":{"need_confirm":0,"already_confirm":0,"can_confirm":0}}]}}
+===2018-07-31 15:22:04.573 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 15:22:04.574 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 15:22:04.576 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 0
+===2018-07-31 15:22:04.771 DEBUG com.kingtechfin.wxthirdparty.thirdman.WxThirdServiceImpl Line:47  - 
+【请求地址】: https://api.weixin.qq.com/cgi-bin/component/api_get_authorizer_info?component_access_token=12_6zsZzUgWeZcNiOVWTF8-pe_4tpP60_td5lOFW-6Xd7QPIEQLaFQj_DouHi3PG7qAUpNdmiOkeeIfqQ1i3m3ypt8XXitjuXNgHeVQ7ZLT20GXlTWrNQlekaGptnsais2vFGBBAKHl_NctTKPqQOQdAJAXVX
+【请求参数】：{"component_appid":"wx1dada0eb497ff1a1","authorizer_appid":"wx3a325cf730413730"}
+【响应数据】：{"authorizer_info":{"nick_name":"金证前海Test","service_type_info":{"id":2},"verify_type_info":{"id":0},"user_name":"gh_955672f3d8f2","alias":"","qrcode_url":"http:\/\/mmbiz.qpic.cn\/mmbiz_jpg\/2GNVbdrciagjyrWyQO1wjwlvMZEGSqOhv6z0dSV2khmPxKYseCvpwGrslA4jWQTS2sXLOCzXC8Cr752mKoB74IA\/0","business_info":{"open_pay":0,"open_shake":0,"open_scan":0,"open_card":0,"open_store":0},"idc":1,"principal_name":"深圳市金证前海金融科技有限公司","signature":"金证前海Test"},"authorization_info":{"authorizer_appid":"wx3a325cf730413730","authorizer_refresh_token":"refreshtoken@@@XfhPubsfscBGmhWeit5dKhz7r9LuSbYlrEsXBi_PKR4","func_info":[{"funcscope_category":{"id":1}},{"funcscope_category":{"id":15}},{"funcscope_category":{"id":4}},{"funcscope_category":{"id":7}},{"funcscope_category":{"id":2}},{"funcscope_category":{"id":3}},{"funcscope_category":{"id":11}},{"funcscope_category":{"id":6}},{"funcscope_category":{"id":9}},{"funcscope_category":{"id":10}},{"funcscope_category":{"id":23}},{"funcscope_category":{"id":24},"confirm_info":{"need_confirm":0,"already_confirm":0,"can_confirm":0}}]}}
+===2018-07-31 15:22:04.794 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.updateById Line:159 - ==>  Preparing: UPDATE wx_vipcn_auth_info SET orgId=?, authorizerAppid=?, authorizerRefreshToken=?, nickName=?, userName=?, principalName=?, signature=?, serviceType=?, verifyType=? WHERE id=? 
+===2018-07-31 15:22:04.795 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.updateById Line:159 - ==> Parameters: 1(Long), wx3a325cf730413730(String), refreshtoken@@@XfhPubsfscBGmhWeit5dKhz7r9LuSbYlrEsXBi_PKR4(String), 金证前海Test(String), gh_955672f3d8f2(String), 深圳市金证前海金融科技有限公司(String), 金证前海Test(String), 2(Integer), 0(Integer), null
+===2018-07-31 15:22:04.797 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.updateById Line:159 - <==    Updates: 0
+===2018-07-31 15:22:04.933 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.insert Line:159 - ==>  Preparing: INSERT INTO wx_vipcn_auth_info ( id, orgId, authorizerAppid, authorizerRefreshToken, nickName, userName, principalName, signature, serviceType, verifyType ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+===2018-07-31 15:22:04.934 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.insert Line:159 - ==> Parameters: 1024193463421882370(Long), 1(Long), wx3a325cf730413730(String), refreshtoken@@@XfhPubsfscBGmhWeit5dKhz7r9LuSbYlrEsXBi_PKR4(String), 金证前海Test(String), gh_955672f3d8f2(String), 深圳市金证前海金融科技有限公司(String), 金证前海Test(String), 2(Integer), 0(Integer)
+===2018-07-31 15:22:05.003 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.insert Line:159 - <==    Updates: 1
+===2018-07-31 15:22:06.162 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 15:22:06.163 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 15:22:06.165 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 15:22:12.940 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 15:22:12.942 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 15:22:12.943 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 15:22:16.230 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 15:22:16.231 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 15:22:16.233 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 15:22:16.249 DEBUG com.kingtechfin.wxthirdparty.mapper.WxManagerMsgMapper.selectMsgListPage Line:159 - ==>  Preparing: SELECT m.id, m.msgId, m.sMsgId, m.authorizerAppid, m.fromUser, m.toUser, m.msgTransmitType, m.createTime, m.msgType, m.content, m.picUrl, m.favorite, m.replied, u.nickname as fromName, u.sex as fromSex, u.city as fromCity, u.headImgUrl as fromHeadImgUrl FROM wx_manager_msg m LEFT JOIN wx_subscribe_user_info u ON m.fromUser = u.openId WHERE m.authorizerAppid=? and m.msgTransmitType=? order by m.createTime asc 
+===2018-07-31 15:22:16.251 DEBUG com.kingtechfin.wxthirdparty.mapper.WxManagerMsgMapper.selectMsgListPage Line:159 - ==> Parameters: wx3a325cf730413730(String), r(String)
+===2018-07-31 15:22:16.430 DEBUG com.kingtechfin.wxthirdparty.mapper.WxManagerMsgMapper.selectMsgListPage Line:159 - <==      Total: 18
+===2018-07-31 15:22:16.433 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE authorizerAppid=? 
+===2018-07-31 15:22:16.433 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: wx3a325cf730413730(String)
+===2018-07-31 15:22:16.435 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 15:22:26.543 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 15:22:26.545 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 15:22:26.546 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 15:22:29.157 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 15:22:29.158 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 15:22:29.160 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 15:22:29.170 DEBUG com.kingtechfin.wxthirdparty.mapper.WxMenuMapper.selectList Line:159 - ==>  Preparing: SELECT id,authorizerAppid,menuId,parentMenuId,menuName,addTime,menuType,menuKey,menuValue,menuUrl FROM wx_menu WHERE authorizerAppid=? AND parentMenuId=? ORDER BY addTime ASC 
+===2018-07-31 15:22:29.172 DEBUG com.kingtechfin.wxthirdparty.mapper.WxMenuMapper.selectList Line:159 - ==> Parameters: wx3a325cf730413730(String), 0(Long)
+===2018-07-31 15:22:29.296 DEBUG com.kingtechfin.wxthirdparty.mapper.WxMenuMapper.selectList Line:159 - <==      Total: 2
+===2018-07-31 15:22:29.298 DEBUG com.kingtechfin.wxthirdparty.mapper.WxMenuMapper.selectList Line:159 - ==>  Preparing: SELECT id,authorizerAppid,menuId,parentMenuId,menuName,addTime,menuType,menuKey,menuValue,menuUrl FROM wx_menu WHERE parentMenuId=? ORDER BY addTime ASC 
+===2018-07-31 15:22:29.299 DEBUG com.kingtechfin.wxthirdparty.mapper.WxMenuMapper.selectList Line:159 - ==> Parameters: 1022740764822188034(Long)
+===2018-07-31 15:22:29.301 DEBUG com.kingtechfin.wxthirdparty.mapper.WxMenuMapper.selectList Line:159 - <==      Total: 0
+===2018-07-31 15:22:29.303 DEBUG com.kingtechfin.wxthirdparty.mapper.WxMenuMapper.selectList Line:159 - ==>  Preparing: SELECT id,authorizerAppid,menuId,parentMenuId,menuName,addTime,menuType,menuKey,menuValue,menuUrl FROM wx_menu WHERE parentMenuId=? ORDER BY addTime ASC 
+===2018-07-31 15:22:29.305 DEBUG com.kingtechfin.wxthirdparty.mapper.WxMenuMapper.selectList Line:159 - ==> Parameters: 1022754943025131522(Long)
+===2018-07-31 15:22:29.312 DEBUG com.kingtechfin.wxthirdparty.mapper.WxMenuMapper.selectList Line:159 - <==      Total: 0
+===2018-07-31 15:22:38.324 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:112 - 
+消息解密后内容为：
+WxMpXmlMessage[
+  toUser=gh_955672f3d8f2
+  fromUser=ogRgp0iqYt4NSkD56xX8bdDBjl8Q
+  createTime=1533021758
+  msgType=text
+  content=j
+  msgId=6584278315172877698
+  scanCodeInfo=ScanCodeInfo[<all null values>]
+  sendPicsInfo=SendPicsInfo[
+  picList=[]
+]
+  sendLocationInfo=SendLocationInfo[<all null values>]
+  hardWare=HardWare[<all null values>]
+] 
+===2018-07-31 15:22:38.337 DEBUG com.kingtechfin.wxthirdparty.mapper.WxManagerMsgMapper.insert Line:159 - ==>  Preparing: INSERT INTO wx_manager_msg ( id, msgId, authorizerAppid, fromUser, toUser, msgTransmitType, createTime, msgType, content ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+===2018-07-31 15:22:38.339 DEBUG com.kingtechfin.wxthirdparty.mapper.WxManagerMsgMapper.insert Line:159 - ==> Parameters: 1024193603532607490(Long), 6584278315172877698(Long), wx3a325cf730413730(String), ogRgp0iqYt4NSkD56xX8bdDBjl8Q(String), gh_955672f3d8f2(String), r(String), 1533021758(Long), text(String), j(String)
+===2018-07-31 15:22:38.405 DEBUG com.kingtechfin.wxthirdparty.mapper.WxManagerMsgMapper.insert Line:159 - <==    Updates: 1
+===2018-07-31 15:22:38.421 DEBUG com.kingtechfin.wxthirdparty.mapper.WxAutoResponseMapper.selectList Line:159 - ==>  Preparing: SELECT id,authorizerAppid,msgType,msgKey,responseMsg FROM wx_auto_response WHERE (authorizerAppid = ? AND msgKey = ? AND msgType NOT IN (?,?)) 
+===2018-07-31 15:22:38.421 DEBUG com.kingtechfin.wxthirdparty.mapper.WxAutoResponseMapper.selectList Line:159 - ==> Parameters: wx3a325cf730413730(String), j(String), auto(String), subscribe(String)
+===2018-07-31 15:22:38.490 DEBUG com.kingtechfin.wxthirdparty.mapper.WxAutoResponseMapper.selectList Line:159 - <==      Total: 0
+===2018-07-31 15:22:38.491 DEBUG com.kingtechfin.wxthirdparty.mapper.WxAutoResponseMapper.selectList Line:159 - ==>  Preparing: SELECT id,authorizerAppid,msgType,msgKey,responseMsg FROM wx_auto_response WHERE (authorizerAppid = ? AND msgType = ?) 
+===2018-07-31 15:22:38.492 DEBUG com.kingtechfin.wxthirdparty.mapper.WxAutoResponseMapper.selectList Line:159 - ==> Parameters: wx3a325cf730413730(String), auto(String)
+===2018-07-31 15:22:38.493 DEBUG com.kingtechfin.wxthirdparty.mapper.WxAutoResponseMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 15:28:30.318 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533022111, infoType=component_verify_ticket, componentVerifyTicket=ticket@@@dhpLHnI3gIoZhfTr3YZ_KN7ulRcWhGDe_YFSQhUEK9Z4VeI9RuRBc728t9TPH91BtLwc9qpKxE_liVr5-V3-BQ, authorizerAppid=null, authorizationCode=null, authorizationCodeExpiredTime=null, preAuthCode=null) 
+===2018-07-31 15:28:30.331 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==>  Preparing: UPDATE wx_thirdparty_info SET appid=?, verifyTicket=? WHERE (appid = ?) 
+===2018-07-31 15:28:30.332 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==> Parameters: wx1dada0eb497ff1a1(String), ticket@@@dhpLHnI3gIoZhfTr3YZ_KN7ulRcWhGDe_YFSQhUEK9Z4VeI9RuRBc728t9TPH91BtLwc9qpKxE_liVr5-V3-BQ(String), wx1dada0eb497ff1a1(String)
+===2018-07-31 15:28:30.333 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - <==    Updates: 1
+===2018-07-31 15:28:30.369 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success
+===2018-07-31 15:33:43.381 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 15:33:43.381 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 15:33:43.383 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 15:33:49.375 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 15:33:49.376 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 15:33:49.378 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 15:33:50.223 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 15:33:50.224 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 15:33:50.225 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 15:33:50.227 DEBUG com.kingtechfin.wxthirdparty.mapper.WxAutoResponseMapper.selectList Line:159 - ==>  Preparing: SELECT id,authorizerAppid,msgType,msgKey,responseMsg FROM wx_auto_response WHERE (authorizerAppid = ? AND msgType = ?) 
+===2018-07-31 15:33:50.228 DEBUG com.kingtechfin.wxthirdparty.mapper.WxAutoResponseMapper.selectList Line:159 - ==> Parameters: wx3a325cf730413730(String), subscribe(String)
+===2018-07-31 15:33:50.229 DEBUG com.kingtechfin.wxthirdparty.mapper.WxAutoResponseMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 15:33:52.737 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 15:33:52.738 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 15:33:52.740 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 15:33:53.488 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 15:33:53.489 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 15:33:53.490 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 15:33:53.491 DEBUG com.kingtechfin.wxthirdparty.mapper.WxAutoResponseMapper.selectList Line:159 - ==>  Preparing: SELECT id,authorizerAppid,msgType,msgKey,responseMsg FROM wx_auto_response WHERE (authorizerAppid = ? AND msgType = ?) 
+===2018-07-31 15:33:53.492 DEBUG com.kingtechfin.wxthirdparty.mapper.WxAutoResponseMapper.selectList Line:159 - ==> Parameters: wx3a325cf730413730(String), auto(String)
+===2018-07-31 15:33:53.493 DEBUG com.kingtechfin.wxthirdparty.mapper.WxAutoResponseMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 15:33:55.492 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 15:33:55.492 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 15:33:55.494 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 15:33:58.088 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 15:33:58.090 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 15:33:58.092 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 15:33:58.094 DEBUG com.kingtechfin.wxthirdparty.mapper.WxAutoResponseMapper.selectList Line:159 - ==>  Preparing: SELECT id,authorizerAppid,msgType,msgKey,responseMsg FROM wx_auto_response WHERE (authorizerAppid = ? AND msgType NOT IN (?,?)) 
+===2018-07-31 15:33:58.094 DEBUG com.kingtechfin.wxthirdparty.mapper.WxAutoResponseMapper.selectList Line:159 - ==> Parameters: wx3a325cf730413730(String), auto(String), subscribe(String)
+===2018-07-31 15:33:58.096 DEBUG com.kingtechfin.wxthirdparty.mapper.WxAutoResponseMapper.selectList Line:159 - <==      Total: 2
+===2018-07-31 15:34:02.492 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 15:34:02.493 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 15:34:02.495 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 15:34:03.653 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 15:34:03.653 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 15:34:03.659 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 15:36:38.204 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533022599, infoType=component_verify_ticket, componentVerifyTicket=ticket@@@dhpLHnI3gIoZhfTr3YZ_KN7ulRcWhGDe_YFSQhUEK9Z4VeI9RuRBc728t9TPH91BtLwc9qpKxE_liVr5-V3-BQ, authorizerAppid=null, authorizationCode=null, authorizationCodeExpiredTime=null, preAuthCode=null) 
+===2018-07-31 15:36:38.206 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==>  Preparing: UPDATE wx_thirdparty_info SET appid=?, verifyTicket=? WHERE (appid = ?) 
+===2018-07-31 15:36:38.207 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==> Parameters: wx1dada0eb497ff1a1(String), ticket@@@dhpLHnI3gIoZhfTr3YZ_KN7ulRcWhGDe_YFSQhUEK9Z4VeI9RuRBc728t9TPH91BtLwc9qpKxE_liVr5-V3-BQ(String), wx1dada0eb497ff1a1(String)
+===2018-07-31 15:36:38.208 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - <==    Updates: 1
+===2018-07-31 15:36:38.247 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success
+===2018-07-31 15:46:50.178 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533023211, infoType=component_verify_ticket, componentVerifyTicket=ticket@@@dhpLHnI3gIoZhfTr3YZ_KN7ulRcWhGDe_YFSQhUEK9Z4VeI9RuRBc728t9TPH91BtLwc9qpKxE_liVr5-V3-BQ, authorizerAppid=null, authorizationCode=null, authorizationCodeExpiredTime=null, preAuthCode=null) 
+===2018-07-31 15:46:50.181 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==>  Preparing: UPDATE wx_thirdparty_info SET appid=?, verifyTicket=? WHERE (appid = ?) 
+===2018-07-31 15:46:50.184 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==> Parameters: wx1dada0eb497ff1a1(String), ticket@@@dhpLHnI3gIoZhfTr3YZ_KN7ulRcWhGDe_YFSQhUEK9Z4VeI9RuRBc728t9TPH91BtLwc9qpKxE_liVr5-V3-BQ(String), wx1dada0eb497ff1a1(String)
+===2018-07-31 15:46:50.186 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - <==    Updates: 1
+===2018-07-31 15:46:50.221 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success
+===2018-07-31 15:57:35.642 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533023857, infoType=component_verify_ticket, componentVerifyTicket=ticket@@@dhpLHnI3gIoZhfTr3YZ_KN7ulRcWhGDe_YFSQhUEK9Z4VeI9RuRBc728t9TPH91BtLwc9qpKxE_liVr5-V3-BQ, authorizerAppid=null, authorizationCode=null, authorizationCodeExpiredTime=null, preAuthCode=null) 
+===2018-07-31 15:57:35.646 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==>  Preparing: UPDATE wx_thirdparty_info SET appid=?, verifyTicket=? WHERE (appid = ?) 
+===2018-07-31 15:57:35.646 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==> Parameters: wx1dada0eb497ff1a1(String), ticket@@@dhpLHnI3gIoZhfTr3YZ_KN7ulRcWhGDe_YFSQhUEK9Z4VeI9RuRBc728t9TPH91BtLwc9qpKxE_liVr5-V3-BQ(String), wx1dada0eb497ff1a1(String)
+===2018-07-31 15:57:35.679 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - <==    Updates: 1
+===2018-07-31 15:57:35.714 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success
+===2018-07-31 16:05:10.105 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 16:05:10.106 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 16:05:10.155 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 16:05:10.227 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info WHERE orgId=? 
+===2018-07-31 16:05:10.228 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 1(Long)
+===2018-07-31 16:05:10.229 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 16:05:10.231 DEBUG com.kingtechfin.wxthirdparty.mapper.WxAutoResponseMapper.selectList Line:159 - ==>  Preparing: SELECT id,authorizerAppid,msgType,msgKey,responseMsg FROM wx_auto_response WHERE (authorizerAppid = ? AND msgType = ?) 
+===2018-07-31 16:05:10.232 DEBUG com.kingtechfin.wxthirdparty.mapper.WxAutoResponseMapper.selectList Line:159 - ==> Parameters: wx3a325cf730413730(String), subscribe(String)
+===2018-07-31 16:05:10.481 DEBUG com.kingtechfin.wxthirdparty.mapper.WxAutoResponseMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 16:07:12.428 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533024433, infoType=component_verify_ticket, componentVerifyTicket=ticket@@@aWUPBa1JvFTkJbJX7kyAHHre1ZsvYFQnQXJ4M1UPsREYXB1REWpLbCBVq_UKqjKwBCCrTHiqHDjn7UUt1O3PTg, authorizerAppid=null, authorizationCode=null, authorizationCodeExpiredTime=null, preAuthCode=null) 
+===2018-07-31 16:07:12.444 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==>  Preparing: UPDATE wx_thirdparty_info SET appid=?, verifyTicket=? WHERE (appid = ?) 
+===2018-07-31 16:07:12.444 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==> Parameters: wx1dada0eb497ff1a1(String), ticket@@@aWUPBa1JvFTkJbJX7kyAHHre1ZsvYFQnQXJ4M1UPsREYXB1REWpLbCBVq_UKqjKwBCCrTHiqHDjn7UUt1O3PTg(String), wx1dada0eb497ff1a1(String)
+===2018-07-31 16:07:12.458 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - <==    Updates: 1
+===2018-07-31 16:07:12.485 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success
+===2018-07-31 16:12:13.648 DEBUG com.kingtechfin.wxthirdparty.WxthirdpartyApplication Line:53  - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+===2018-07-31 16:12:17.085 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,appid,appsecret,token,aesKey,redirectUrl,verifyTicket FROM wx_thirdparty_info 
+===2018-07-31 16:12:17.103 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.selectList Line:159 - ==> Parameters: 
+===2018-07-31 16:12:17.114 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 16:12:17.130 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info 
+===2018-07-31 16:12:17.130 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 
+===2018-07-31 16:12:17.132 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
+===2018-07-31 16:17:53.930 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533025074, infoType=component_verify_ticket, componentVerifyTicket=ticket@@@aWUPBa1JvFTkJbJX7kyAHHre1ZsvYFQnQXJ4M1UPsREYXB1REWpLbCBVq_UKqjKwBCCrTHiqHDjn7UUt1O3PTg, authorizerAppid=null, authorizationCode=null, authorizationCodeExpiredTime=null, preAuthCode=null) 
+===2018-07-31 16:17:53.942 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==>  Preparing: UPDATE wx_thirdparty_info SET appid=?, verifyTicket=? WHERE (appid = ?) 
+===2018-07-31 16:17:53.945 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==> Parameters: wx1dada0eb497ff1a1(String), ticket@@@aWUPBa1JvFTkJbJX7kyAHHre1ZsvYFQnQXJ4M1UPsREYXB1REWpLbCBVq_UKqjKwBCCrTHiqHDjn7UUt1O3PTg(String), wx1dada0eb497ff1a1(String)
+===2018-07-31 16:17:53.946 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - <==    Updates: 1
+===2018-07-31 16:17:53.949 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success
+===2018-07-31 16:28:17.834 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533025699, infoType=component_verify_ticket, componentVerifyTicket=ticket@@@aWUPBa1JvFTkJbJX7kyAHHre1ZsvYFQnQXJ4M1UPsREYXB1REWpLbCBVq_UKqjKwBCCrTHiqHDjn7UUt1O3PTg, authorizerAppid=null, authorizationCode=null, authorizationCodeExpiredTime=null, preAuthCode=null) 
+===2018-07-31 16:28:17.837 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==>  Preparing: UPDATE wx_thirdparty_info SET appid=?, verifyTicket=? WHERE (appid = ?) 
+===2018-07-31 16:28:17.839 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==> Parameters: wx1dada0eb497ff1a1(String), ticket@@@aWUPBa1JvFTkJbJX7kyAHHre1ZsvYFQnQXJ4M1UPsREYXB1REWpLbCBVq_UKqjKwBCCrTHiqHDjn7UUt1O3PTg(String), wx1dada0eb497ff1a1(String)
+===2018-07-31 16:28:17.841 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - <==    Updates: 1
+===2018-07-31 16:28:17.844 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success
+===2018-07-31 16:37:56.604 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533026277, infoType=component_verify_ticket, componentVerifyTicket=ticket@@@aWUPBa1JvFTkJbJX7kyAHHre1ZsvYFQnQXJ4M1UPsREYXB1REWpLbCBVq_UKqjKwBCCrTHiqHDjn7UUt1O3PTg, authorizerAppid=null, authorizationCode=null, authorizationCodeExpiredTime=null, preAuthCode=null) 
+===2018-07-31 16:37:56.610 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==>  Preparing: UPDATE wx_thirdparty_info SET appid=?, verifyTicket=? WHERE (appid = ?) 
+===2018-07-31 16:37:56.610 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==> Parameters: wx1dada0eb497ff1a1(String), ticket@@@aWUPBa1JvFTkJbJX7kyAHHre1ZsvYFQnQXJ4M1UPsREYXB1REWpLbCBVq_UKqjKwBCCrTHiqHDjn7UUt1O3PTg(String), wx1dada0eb497ff1a1(String)
+===2018-07-31 16:37:56.613 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - <==    Updates: 1
+===2018-07-31 16:37:56.619 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success
+===2018-07-31 16:49:11.622 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533026952, infoType=component_verify_ticket, componentVerifyTicket=ticket@@@aWUPBa1JvFTkJbJX7kyAHHre1ZsvYFQnQXJ4M1UPsREYXB1REWpLbCBVq_UKqjKwBCCrTHiqHDjn7UUt1O3PTg, authorizerAppid=null, authorizationCode=null, authorizationCodeExpiredTime=null, preAuthCode=null) 
+===2018-07-31 16:49:11.630 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==>  Preparing: UPDATE wx_thirdparty_info SET appid=?, verifyTicket=? WHERE (appid = ?) 
+===2018-07-31 16:49:11.632 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==> Parameters: wx1dada0eb497ff1a1(String), ticket@@@aWUPBa1JvFTkJbJX7kyAHHre1ZsvYFQnQXJ4M1UPsREYXB1REWpLbCBVq_UKqjKwBCCrTHiqHDjn7UUt1O3PTg(String), wx1dada0eb497ff1a1(String)
+===2018-07-31 16:49:11.633 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - <==    Updates: 1
+===2018-07-31 16:49:11.637 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success
+===2018-07-31 16:58:33.962 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533027515, infoType=component_verify_ticket, componentVerifyTicket=ticket@@@aWUPBa1JvFTkJbJX7kyAHHre1ZsvYFQnQXJ4M1UPsREYXB1REWpLbCBVq_UKqjKwBCCrTHiqHDjn7UUt1O3PTg, authorizerAppid=null, authorizationCode=null, authorizationCodeExpiredTime=null, preAuthCode=null) 
+===2018-07-31 16:58:33.966 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==>  Preparing: UPDATE wx_thirdparty_info SET appid=?, verifyTicket=? WHERE (appid = ?) 
+===2018-07-31 16:58:33.967 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==> Parameters: wx1dada0eb497ff1a1(String), ticket@@@aWUPBa1JvFTkJbJX7kyAHHre1ZsvYFQnQXJ4M1UPsREYXB1REWpLbCBVq_UKqjKwBCCrTHiqHDjn7UUt1O3PTg(String), wx1dada0eb497ff1a1(String)
+===2018-07-31 16:58:33.969 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - <==    Updates: 1
+===2018-07-31 16:58:33.971 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success
+===2018-07-31 17:08:38.923 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533028120, infoType=component_verify_ticket, componentVerifyTicket=ticket@@@S3RcpYOVM9tRKzL8cDt4ch9nVLdrOJSmahA24A-OvK6VkDVCTlgdSbPZ83Uxq40D1s67WzxHIUK0uypDTVPVWA, authorizerAppid=null, authorizationCode=null, authorizationCodeExpiredTime=null, preAuthCode=null) 
+===2018-07-31 17:08:38.948 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==>  Preparing: UPDATE wx_thirdparty_info SET appid=?, verifyTicket=? WHERE (appid = ?) 
+===2018-07-31 17:08:38.962 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==> Parameters: wx1dada0eb497ff1a1(String), ticket@@@S3RcpYOVM9tRKzL8cDt4ch9nVLdrOJSmahA24A-OvK6VkDVCTlgdSbPZ83Uxq40D1s67WzxHIUK0uypDTVPVWA(String), wx1dada0eb497ff1a1(String)
+===2018-07-31 17:08:38.964 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - <==    Updates: 1
+===2018-07-31 17:08:38.968 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success
+===2018-07-31 17:20:04.076 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533028805, infoType=component_verify_ticket, componentVerifyTicket=ticket@@@S3RcpYOVM9tRKzL8cDt4ch9nVLdrOJSmahA24A-OvK6VkDVCTlgdSbPZ83Uxq40D1s67WzxHIUK0uypDTVPVWA, authorizerAppid=null, authorizationCode=null, authorizationCodeExpiredTime=null, preAuthCode=null) 
+===2018-07-31 17:20:04.087 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==>  Preparing: UPDATE wx_thirdparty_info SET appid=?, verifyTicket=? WHERE (appid = ?) 
+===2018-07-31 17:20:04.088 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==> Parameters: wx1dada0eb497ff1a1(String), ticket@@@S3RcpYOVM9tRKzL8cDt4ch9nVLdrOJSmahA24A-OvK6VkDVCTlgdSbPZ83Uxq40D1s67WzxHIUK0uypDTVPVWA(String), wx1dada0eb497ff1a1(String)
+===2018-07-31 17:20:04.091 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - <==    Updates: 1
+===2018-07-31 17:20:04.096 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success
+===2018-07-31 17:28:47.473 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533029328, infoType=component_verify_ticket, componentVerifyTicket=ticket@@@S3RcpYOVM9tRKzL8cDt4ch9nVLdrOJSmahA24A-OvK6VkDVCTlgdSbPZ83Uxq40D1s67WzxHIUK0uypDTVPVWA, authorizerAppid=null, authorizationCode=null, authorizationCodeExpiredTime=null, preAuthCode=null) 
+===2018-07-31 17:28:47.477 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==>  Preparing: UPDATE wx_thirdparty_info SET appid=?, verifyTicket=? WHERE (appid = ?) 
+===2018-07-31 17:28:47.478 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==> Parameters: wx1dada0eb497ff1a1(String), ticket@@@S3RcpYOVM9tRKzL8cDt4ch9nVLdrOJSmahA24A-OvK6VkDVCTlgdSbPZ83Uxq40D1s67WzxHIUK0uypDTVPVWA(String), wx1dada0eb497ff1a1(String)
+===2018-07-31 17:28:47.480 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - <==    Updates: 1
+===2018-07-31 17:28:47.484 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success
+===2018-07-31 17:38:26.272 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533029907, infoType=component_verify_ticket, componentVerifyTicket=ticket@@@S3RcpYOVM9tRKzL8cDt4ch9nVLdrOJSmahA24A-OvK6VkDVCTlgdSbPZ83Uxq40D1s67WzxHIUK0uypDTVPVWA, authorizerAppid=null, authorizationCode=null, authorizationCodeExpiredTime=null, preAuthCode=null) 
+===2018-07-31 17:38:26.276 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==>  Preparing: UPDATE wx_thirdparty_info SET appid=?, verifyTicket=? WHERE (appid = ?) 
+===2018-07-31 17:38:26.277 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==> Parameters: wx1dada0eb497ff1a1(String), ticket@@@S3RcpYOVM9tRKzL8cDt4ch9nVLdrOJSmahA24A-OvK6VkDVCTlgdSbPZ83Uxq40D1s67WzxHIUK0uypDTVPVWA(String), wx1dada0eb497ff1a1(String)
+===2018-07-31 17:38:26.279 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - <==    Updates: 1
+===2018-07-31 17:38:26.283 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success
+===2018-07-31 17:50:12.583 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533030613, infoType=component_verify_ticket, componentVerifyTicket=ticket@@@S3RcpYOVM9tRKzL8cDt4ch9nVLdrOJSmahA24A-OvK6VkDVCTlgdSbPZ83Uxq40D1s67WzxHIUK0uypDTVPVWA, authorizerAppid=null, authorizationCode=null, authorizationCodeExpiredTime=null, preAuthCode=null) 
+===2018-07-31 17:50:12.713 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==>  Preparing: UPDATE wx_thirdparty_info SET appid=?, verifyTicket=? WHERE (appid = ?) 
+===2018-07-31 17:50:12.714 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==> Parameters: wx1dada0eb497ff1a1(String), ticket@@@S3RcpYOVM9tRKzL8cDt4ch9nVLdrOJSmahA24A-OvK6VkDVCTlgdSbPZ83Uxq40D1s67WzxHIUK0uypDTVPVWA(String), wx1dada0eb497ff1a1(String)
+===2018-07-31 17:50:12.718 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - <==    Updates: 1
+===2018-07-31 17:50:12.722 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success
+===2018-07-31 17:59:02.358 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:60  - 
+消息解密后内容为：
+WxOpenXmlMessage(appId=wx1dada0eb497ff1a1, createTime=1533031142, infoType=component_verify_ticket, componentVerifyTicket=ticket@@@S3RcpYOVM9tRKzL8cDt4ch9nVLdrOJSmahA24A-OvK6VkDVCTlgdSbPZ83Uxq40D1s67WzxHIUK0uypDTVPVWA, authorizerAppid=null, authorizationCode=null, authorizationCodeExpiredTime=null, preAuthCode=null) 
+===2018-07-31 17:59:02.517 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==>  Preparing: UPDATE wx_thirdparty_info SET appid=?, verifyTicket=? WHERE (appid = ?) 
+===2018-07-31 17:59:02.519 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - ==> Parameters: wx1dada0eb497ff1a1(String), ticket@@@S3RcpYOVM9tRKzL8cDt4ch9nVLdrOJSmahA24A-OvK6VkDVCTlgdSbPZ83Uxq40D1s67WzxHIUK0uypDTVPVWA(String), wx1dada0eb497ff1a1(String)
+===2018-07-31 17:59:02.521 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.update Line:159 - <==    Updates: 1
+===2018-07-31 17:59:02.524 DEBUG com.kingtechfin.wxthirdparty.controller.WxNotifyController Line:65  - 
+组装回复信息：success

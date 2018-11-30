@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.kingtechfin.wxthirdparty.mapper.WxUploadNewsWxsListMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.kingtechfin.wxthirdparty.entity.WxUploadNewsWxsList">
+        <id column="id" property="id" />
+        <result column="mediaId" property="mediaId" />
+        <result column="newsIndex" property="newsIndex" />
+        <result column="author" property="author" />
+        <result column="title" property="title" />
+        <result column="digest" property="digest" />
+        <result column="content" property="content" />
+        <result column="thumbName" property="thumbName" />
+        <result column="craeteTime" property="createTime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, mediaId, newsIndex, author, title, digest, content, thumbName, createTime
+    </sql>
+
+    <select id="getUploadNewsWxsList" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List" />
+        from wx_upload_news_wxs_list s
+        where s.mediaId = #{new.mediaId}
+    </select>
+</mapper>

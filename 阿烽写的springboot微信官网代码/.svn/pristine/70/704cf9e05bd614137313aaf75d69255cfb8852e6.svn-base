@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.kingtechfin.wxthirdparty.mapper.WxHistoryNewsMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.kingtechfin.wxthirdparty.entity.WxHistoryNews">
+        <id column="id" property="id" />
+        <result column="authorizerAppid" property="authorizerAppid" />
+        <result column="msgId" property="msgId" />
+        <result column="msgDataId" property="msgDataId" />
+        <result column="mediaId" property="mediaId" />
+        <result column="createTime" property="createTime" />
+        <result column="errcode" property="errcode" />
+        <result column="errmsg" property="errmsg" />
+    </resultMap>
+
+    <resultMap id="Get_His_News_List" extends="BaseResultMap" type="com.kingtechfin.wxthirdparty.entity.WxHistoryNews">
+        <association  property="news" javaType="com.kingtechfin.wxthirdparty.entity.WxUploadNewsToWxs">
+            <id column="s_id" property="id" />
+            <result column="s_mediaId" property="mediaId" />
+            <result column="s_authorizerAppid" property="authorizerAppid" />
+            <result column="s_createTime" property="createTime" />
+            <collection property="wxUploadNewsWxsLists" ofType="com.kingtechfin.wxthirdparty.entity.WxUploadNewsWxsList">
+                <id property="id" column="ns_newsId"/>
+                <result property="mediaId" column="ns_mediaId"/>
+                <result property="newsIndex" column="ns_newsIndex"/>
+                <result property="author" column="ns_author"/>
+                <result property="title" column="ns_title"/>
+                <result property="digest" column="ns_digest"/>
+                <result property="content" column="ns_content"/>
+                <result property="thumbName" column="ns_thumbName"/>
+                <result property="createTime" column="ns_createTime"/>
+            </collection>
+        </association>
+
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, authorizerAppid, msgId, msgDataId, mediaId, createTime, errcode, errmsg
+    </sql>
+
+    <select id="getHisNewsList" resultMap="Get_His_News_List">
+        select
+            hs.id as id,
+            hs.authorizerAppid as authorizerAppid,
+            hs.msgId as msgId,
+            hs.msgDataId as msgDataId,
+            hs.mediaId as mediaId,
+            hs.createTime as createTime,
+            hs.errcode as errcode,
+            hs.errmsg as errmsg,
+            s.id as s_id,
+            s.mediaId as s_mediaId ,
+            s.authorizerAppid as s_authorizerAppid,
+            s.createTime as s_createTime,
+            ns.id as ns_newsId,
+            ns.mediaId as ns_mediaId,
+            ns.newsIndex as ns_newsIndex,
+            ns.author as ns_author,
+            ns.title as ns_title,
+            ns.digest as ns_digest,
+            ns.content as ns_content,
+            ns.thumbName as ns_thumbName,
+            ns.createTime as ns_createTime
+        from wx_history_news hs
+        left outer join wx_upload_news_to_wxs s on s.mediaId = hs.mediaId
+        left outer join wx_upload_news_wxs_list ns ON s.mediaId = ns.mediaId
+        <where>
+            and hs.authorizerAppid = #{pm.authorizerAppid}
+            <if test="pm.id != null">
+                and hs.id = #{pm.id}
+            </if>
+            <if test="pm.msgId != null">
+                and hs.msgId = #{pm.msgId}
+            </if>
+            <if test="pm.msgDataId != null">
+                and hs.msgDataId = #{pm.msgDataId}
+            </if>
+            <if test="pm.mediaId != null">
+                and hs.mediaId = #{pm.mediaId}
+            </if>
+            <if test="pm.createTime != null">
+                and hs.createTime = #{pm.createTime}
+            </if>
+            <if test="pm.errcode != null">
+                and hs.errcode = #{pm.errcode}
+            </if>
+            <if test="pm.errmsg != null">
+                and hs.errmsg = #{pm.errmsg}
+            </if>
+        </where>
+        order by ns.newsIndex asc
+
+    </select>
+
+</mapper>

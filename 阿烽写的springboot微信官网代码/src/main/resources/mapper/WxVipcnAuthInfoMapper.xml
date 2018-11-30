@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.kingtechfin.wxthirdparty.entity.WxVipcnAuthInfo">
+        <id column="id" property="id" />
+        <result column="orgId" property="orgId" />
+        <result column="authorizerAppid" property="authorizerAppid" />
+        <result column="authorizerRefreshToken" property="authorizerRefreshToken" />
+        <result column="nickName" property="nickName" />
+        <result column="userName" property="userName" />
+        <result column="principalName" property="principalName" />
+        <result column="signature" property="signature" />
+        <result column="headImg" property="headImg" />
+        <result column="serviceType" property="serviceType" />
+        <result column="verifyType" property="verifyType" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, orgId, authorizerAppid, authorizerRefreshToken, nickName, userName, principalName, signature, headImg, serviceType, verifyType
+    </sql>
+
+
+
+
+</mapper>
