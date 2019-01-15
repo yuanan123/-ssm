@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace命名空间，为了对sql语句进行隔离，方便管理，mapper开发dao方式，使用namespace有特殊作用  
+mapper代理开发时将namespace指定为mapper接口的全限定名  
+ -->  
+<mapper namespace="com.shuangyulin.mapper.BookMapper">  
+<!--在mapper.xml文件中配置很多的sql语句，执行每个sql语句时，封装为MappedStatement对象  
+mapper.xml以statement为单位管理sql语句  
+ -->  
+	<!-- 添加图书信息 -->
+	<insert id="addBook" parameterType="book">
+		insert into t_book(barcode,bookName,bookType,price,count,publish,publishDate,photoBook) values 
+		(#{barcode},#{bookName},#{bookType.bookTypeId},#{price},#{count},#{publish},#{publishDate},#{photoBook})
+	</insert>
+	
+	<!-- 查询图书信息 -->
+	<select id="queryBook" resultMap="bookMap" >
+		select * from t_book,t_bookType ${where} and t_book.bookType = t_bookType.bookTypeId limit #{startIndex},#{pageSize} 
+	</select> 
+	<resultMap id="bookMap" type="book">  
+        <id property="barcode" column="barcode" />     
+        <association property="bookType" column="bookTypeId" select="com.shuangyulin.mapper.BookTypeMapper.findBookTypeById" />  
+    </resultMap> 
+    
+    
+    <!-- 查询图书信息 -->
+	<select id="queryBookList" resultMap="bookMap" >
+		select * from t_book,t_bookType ${where} and t_book.bookType = t_bookType.bookTypeId 
+	</select>  
+    
+    
+    <!-- 查询图书信息数量 -->
+	<select id="queryBookCount" resultType="int">
+		select count(*) from t_book,t_bookType ${where} and  t_book.bookType = t_bookType.bookTypeId 
+	</select>
+	
+	<!-- 根据图书条形码获取图书对象 -->
+	<select id="getBook" parameterType="string" resultMap="bookMap">
+		select * from t_book,t_bookType where t_book.bookType = t_bookType.bookTypeId and t_book.barcode = #{barcode}
+	</select>
+	
+	<!-- 更新图书信息 -->
+	<update id="updateBook" parameterType="book">
+		update t_book set bookName=#{bookName},bookType=#{bookType.bookTypeId},price=#{price},count=#{count},publish=#{publish},publishDate=#{publishDate},photoBook=#{photoBook} where barcode = #{barcode}
+	</update>
+	
+	<!-- 删除图书信息 -->
+	<delete id="deleteBook" parameterType="string">
+		delete from t_book where barcode=#{barcode}
+	</delete>
+     
+ 
+</mapper>
+ 

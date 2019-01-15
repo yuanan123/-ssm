@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace命名空间，为了对sql语句进行隔离，方便管理，mapper开发dao方式，使用namespace有特殊作用  
+mapper代理开发时将namespace指定为mapper接口的全限定名  
+ -->  
+<mapper namespace="com.shuangyulin.mapper.BookTypeMapper">  
+<!--在mapper.xml文件中配置很多的sql语句，执行每个sql语句时，封装为MappedStatement对象  
+mapper.xml以statement为单位管理sql语句  
+ -->  
+   
+   <!-- 根据bookTypeId查询图书类型信息 -->   
+   <select id="findBookTypeById" parameterType="int" resultType="bookType">  
+      SELECT * FROM t_booktype WHERE bookTypeId= #{bookTypeId}  
+   </select>   
+    
+   <!-- 查询图书类型信息-->  
+   <select id="findBookTypeList"  resultType="bookType">   
+      select * from t_bookType limit #{startIndex},#{pageSize}
+   </select>  
+    
+   <!-- 查询所有图书类型信息-->  
+   <select id="findAllBookTypeList"  resultType="bookType">   
+      select * from t_bookType
+   </select>
+    
+   <!-- 输出简单类型 ，返回查询记录个数，通常用于实现查询分页  -->  
+    <select id="findBookTypeCount" resultType="int">  
+      select count(*) from t_bookType
+    </select>  
+    
+   <!-- 添加图书类型 -->
+   <insert id="insertBookType" parameterType="bookType">  
+      <selectKey keyProperty="bookTypeId" order="AFTER" resultType="int">  
+         select LAST_INSERT_ID()  
+      </selectKey>
+      INSERT INTO t_booktype(bookTypeName,days)VALUES(#{bookTypeName},#{days})  
+   </insert>  
+   
+   <!-- 图书类型删除 -->  
+   <delete id="deleteBookType" parameterType="int">  
+    delete from t_booktype where bookTypeId=#{bookTypeId}  
+   </delete>  
+   
+   <!-- 图书类型更新 -->  
+   <update id="updateBookType" parameterType="bookType">  
+      update t_booktype set bookTypeName=#{bookTypeName},days=#{days} where bookTypeId=#{bookTypeId}  
+   </update>
+</mapper>
+ 
