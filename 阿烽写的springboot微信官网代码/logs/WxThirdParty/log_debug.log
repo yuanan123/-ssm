@@ -1,7 +1,0 @@
-===2018-08-01 07:47:57.118 DEBUG com.kingtechfin.wxthirdparty.WxthirdpartyApplication Line:53  - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
-===2018-08-01 07:48:05.536 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,appid,appsecret,token,aesKey,redirectUrl,verifyTicket FROM wx_thirdparty_info 
-===2018-08-01 07:48:05.572 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.selectList Line:159 - ==> Parameters: 
-===2018-08-01 07:48:05.727 DEBUG com.kingtechfin.wxthirdparty.mapper.WxThirdpartyInfoMapper.selectList Line:159 - <==      Total: 1
-===2018-08-01 07:48:05.734 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==>  Preparing: SELECT id,orgId,authorizerAppid,authorizerRefreshToken,nickName,userName,principalName,signature,headImg,serviceType,verifyType FROM wx_vipcn_auth_info 
-===2018-08-01 07:48:05.735 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - ==> Parameters: 
-===2018-08-01 07:48:05.752 DEBUG com.kingtechfin.wxthirdparty.mapper.WxVipcnAuthInfoMapper.selectList Line:159 - <==      Total: 1
